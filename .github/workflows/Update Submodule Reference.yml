@@ -5,6 +5,9 @@ on:
     branches:
       - main  # Trigger on changes to the 'main' branch of PropertyGridHelpers.CodeCoverage
 
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
   update-main-repo:
     runs-on: ubuntu-latest
