@@ -1,0 +1,31 @@
+name: Update Submodule Reference in PropertyGridHelpers
+
+on:
+  push:
+    branches:
+      - main  # Trigger on changes to the 'main' branch of PropertyGridHelpers.CodeCoverage
+
+jobs:
+  update-main-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Submodule Repository
+      uses: actions/checkout@v4
+
+    - name: Clone Main Repository
+      run: |
+        # Clone the PropertyGridHelpers repository
+        git clone --depth 1 https://github.com/dparvin/PropertyGridHelpers.git main-repo
+        cd main-repo
+        git config user.name "GitHub Actions"
+        git config user.email "actions@github.com"
+
+    - name: Update Submodule Reference
+      run: |
+        cd main-repo
+        # Ensure the submodule points to the latest commit in the submodule repository
+        git submodule update --remote --merge Coverage
+        git add Coverage
+        git commit -m "Update submodule reference to latest commit in PropertyGridHelpers.CodeCoverage"
+        git push origin master
