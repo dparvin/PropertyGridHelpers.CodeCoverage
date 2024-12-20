@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.7955974842767296" branch-rate="0.8214285714285714" lines-covered="253" lines-valid="318" branches-covered="92" branches-valid="112" complexity="263" version="0" timestamp="1734700906">
+<coverage line-rate="0.7955974842767296" branch-rate="0.8214285714285714" lines-covered="253" lines-valid="318" branches-covered="92" branches-valid="112" complexity="263" version="0" timestamp="1734701408">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
