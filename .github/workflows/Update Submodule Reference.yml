@@ -38,3 +38,6 @@ jobs:
         git add Coverage
         git commit -m "Update submodule reference to latest commit in PropertyGridHelpers.CodeCoverage" || echo "No changes to commit"
         git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/dparvin/PropertyGridHelpers.git master
+        # Create and push a 'no-build' tag
+        git tag no-build
+        git push https://x-access-token:${{ secrets.PAT_TOKEN }}@github.com/dparvin/PropertyGridHelpers.git no-build
