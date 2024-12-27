@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.939209726443769" branch-rate="0.9453125" lines-covered="309" lines-valid="329" branches-covered="121" branches-valid="128" complexity="282" version="0" timestamp="1735155733">
+<coverage line-rate="0.911504424778761" branch-rate="0.9453125" lines-covered="309" lines-valid="339" branches-covered="121" branches-valid="128" complexity="284" version="0" timestamp="1735233879">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.939209726443769" branch-rate="0.9453125" complexity="282">
+    <package name="PropertyGridHelpers" line-rate="0.911504424778761" branch-rate="0.9453125" complexity="284">
       <classes>
         <class name="PropertyGridHelpers.Attributes.EnumImageAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumImageAttribute.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
@@ -1274,7 +1274,49 @@
             <line number="222" hits="40" branch="false" />
           </lines>
         </class>
-        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_UIEditors_FlagEnumUIEditor_T_WinRTTypeDetails" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net6.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_Controls_FlagCheckedListBoxWinRTTypeDetails" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net8.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_UIEditors_FlagEnumUIEditorWinRTTypeDetails" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net6.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
