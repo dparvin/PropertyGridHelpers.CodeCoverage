@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9367088607594937" branch-rate="0.9008620689655172" lines-covered="518" lines-valid="553" branches-covered="209" branches-valid="232" complexity="514" version="0" timestamp="1736295316">
+<coverage line-rate="0.9200710479573713" branch-rate="0.9051724137931034" lines-covered="518" lines-valid="563" branches-covered="210" branches-valid="232" complexity="516" version="0" timestamp="1736611519">
   <sources>
-    <source>c:\agent\_work\10\s\Code\PropertyGridHelpers\</source>
+    <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.9367088607594937" branch-rate="0.9008620689655172" complexity="514">
+    <package name="PropertyGridHelpers" line-rate="0.9200710479573713" branch-rate="0.9051724137931034" complexity="516">
       <classes>
-        <class name="PropertyGridHelpers.Attributes.DynamicPathSourceAttribute" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Attributes\DynamicPathSourceAttribute.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="PropertyGridHelpers.Attributes.DynamicPathSourceAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\DynamicPathSourceAttribute.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_PathPropertyName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -34,7 +34,7 @@
             <line number="46" hits="16" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.EnumImageAttribute" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Attributes\EnumImageAttribute.cs" line-rate="1" branch-rate="1" complexity="18">
+        <class name="PropertyGridHelpers.Attributes.EnumImageAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumImageAttribute.cs" line-rate="1" branch-rate="1" complexity="18">
           <methods>
             <method name="get_EnumImage" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -157,7 +157,7 @@
             <line number="104" hits="208" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.EnumTextAttribute" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Attributes\EnumTextAttribute.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="PropertyGridHelpers.Attributes.EnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumTextAttribute.cs" line-rate="1" branch-rate="1" complexity="8">
           <methods>
             <method name="get_EnumText" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -215,7 +215,7 @@
             <line number="61" hits="48" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.FileExtensionAttribute" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Attributes\FileExtensionAttribute.cs" line-rate="1" branch-rate="0.875" complexity="20">
+        <class name="PropertyGridHelpers.Attributes.FileExtensionAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\FileExtensionAttribute.cs" line-rate="1" branch-rate="1" complexity="20">
           <methods>
             <method name="get_PropertyName" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -227,15 +227,15 @@
                 <line number="64" hits="32" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="0.875" complexity="8">
+            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="8">
               <lines>
-                <line number="72" hits="64" branch="false" />
-                <line number="73" hits="128" branch="true" condition-coverage="100% (6/6)" />
-                <line number="74" hits="128" branch="false" />
-                <line number="75" hits="128" branch="false" />
+                <line number="72" hits="72" branch="false" />
+                <line number="73" hits="144" branch="true" condition-coverage="100% (6/6)" />
+                <line number="74" hits="144" branch="false" />
+                <line number="75" hits="144" branch="false" />
                 <line number="76" hits="16" branch="false" />
-                <line number="77" hits="112" branch="true" condition-coverage="50% (1/2)" />
-                <line number="78" hits="112" branch="false" />
+                <line number="77" hits="128" branch="true" condition-coverage="100% (2/2)" />
+                <line number="78" hits="128" branch="false" />
                 <line number="79" hits="112" branch="false" />
                 <line number="80" hits="64" branch="false" />
               </lines>
@@ -252,14 +252,14 @@
                 <line number="49" hits="80" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="0.875" complexity="8">
+            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="8">
               <lines>
-                <line number="73" hits="128" branch="true" condition-coverage="100% (6/6)" />
-                <line number="74" hits="128" branch="false" />
-                <line number="75" hits="128" branch="false" />
+                <line number="73" hits="144" branch="true" condition-coverage="100% (6/6)" />
+                <line number="74" hits="144" branch="false" />
+                <line number="75" hits="144" branch="false" />
                 <line number="76" hits="16" branch="false" />
-                <line number="77" hits="112" branch="true" condition-coverage="50% (1/2)" />
-                <line number="78" hits="112" branch="false" />
+                <line number="77" hits="128" branch="true" condition-coverage="100% (2/2)" />
+                <line number="78" hits="128" branch="false" />
                 <line number="79" hits="112" branch="false" />
               </lines>
             </method>
@@ -270,18 +270,18 @@
             <line number="49" hits="80" branch="false" />
             <line number="57" hits="160" branch="false" />
             <line number="64" hits="32" branch="false" />
-            <line number="72" hits="64" branch="false" />
-            <line number="73" hits="128" branch="true" condition-coverage="100% (6/6)" />
-            <line number="74" hits="128" branch="false" />
-            <line number="75" hits="128" branch="false" />
+            <line number="72" hits="72" branch="false" />
+            <line number="73" hits="144" branch="true" condition-coverage="100% (6/6)" />
+            <line number="74" hits="144" branch="false" />
+            <line number="75" hits="144" branch="false" />
             <line number="76" hits="16" branch="false" />
-            <line number="77" hits="112" branch="true" condition-coverage="50% (1/2)" />
-            <line number="78" hits="112" branch="false" />
+            <line number="77" hits="128" branch="true" condition-coverage="100% (2/2)" />
+            <line number="78" hits="128" branch="false" />
             <line number="79" hits="112" branch="false" />
             <line number="80" hits="64" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.ResourcePathAttribute" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Attributes\ResourcePathAttribute.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="PropertyGridHelpers.Attributes.ResourcePathAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\ResourcePathAttribute.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="get_ResourcePath" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -308,7 +308,7 @@
             <line number="38" hits="32" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Controls.FlagCheckedListBox" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Controls\FlagCheckedListBox.cs" line-rate="1" branch-rate="1" complexity="77">
+        <class name="PropertyGridHelpers.Controls.FlagCheckedListBox" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Controls\FlagCheckedListBox.cs" line-rate="1" branch-rate="1" complexity="77">
           <methods>
             <method name="Dispose" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -439,7 +439,7 @@
             <method name="set_EnumValue" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
                 <line number="215" hits="88" branch="false" />
-                <line number="220" hits="176" branch="false" />
+                <line number="217" hits="176" branch="false" />
                 <line number="222" hits="160" branch="false" />
                 <line number="223" hits="160" branch="false" />
                 <line number="224" hits="160" branch="true" condition-coverage="100% (2/2)" />
@@ -560,7 +560,7 @@
             </method>
             <method name="set_EnumValue" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="220" hits="176" branch="false" />
+                <line number="217" hits="176" branch="false" />
                 <line number="222" hits="160" branch="false" />
                 <line number="223" hits="160" branch="false" />
                 <line number="224" hits="160" branch="true" condition-coverage="100% (2/2)" />
@@ -653,7 +653,7 @@
             <line number="212" hits="128" branch="false" />
             <line number="213" hits="64" branch="false" />
             <line number="215" hits="88" branch="false" />
-            <line number="220" hits="176" branch="false" />
+            <line number="217" hits="176" branch="false" />
             <line number="222" hits="160" branch="false" />
             <line number="223" hits="160" branch="false" />
             <line number="224" hits="160" branch="true" condition-coverage="100% (2/2)" />
@@ -665,7 +665,7 @@
             <line number="241" hits="1136" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Controls.FlagCheckedListBoxItem" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Controls\FlagCheckedListBoxItem.cs" line-rate="1" branch-rate="1" complexity="12">
+        <class name="PropertyGridHelpers.Controls.FlagCheckedListBoxItem" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Controls\FlagCheckedListBoxItem.cs" line-rate="1" branch-rate="1" complexity="12">
           <methods>
             <method name="ToString" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -724,7 +724,7 @@
             <line number="71" hits="112" branch="true" condition-coverage="100% (6/6)" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Converters.EnumTextConverter" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Converters\EnumTextConverter.cs" line-rate="1" branch-rate="1" complexity="75">
+        <class name="PropertyGridHelpers.Converters.EnumTextConverter" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Converters\EnumTextConverter.cs" line-rate="1" branch-rate="1" complexity="75">
           <methods>
             <method name="CanConvertTo" signature="(System.ComponentModel.ITypeDescriptorContext,System.Type)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -763,10 +763,10 @@
                 <line number="106" hits="224" branch="true" condition-coverage="100% (2/2)" />
                 <line number="107" hits="160" branch="true" condition-coverage="100% (2/2)" />
                 <line number="108" hits="40" branch="false" />
-                <line number="109" hits="920" branch="true" condition-coverage="100% (2/2)" />
+                <line number="109" hits="912" branch="true" condition-coverage="100% (2/2)" />
                 <line number="110" hits="188" branch="false" />
-                <line number="111" hits="376" branch="false" />
-                <line number="113" hits="376" branch="true" condition-coverage="100% (4/4)" />
+                <line number="111" hits="372" branch="false" />
+                <line number="113" hits="372" branch="true" condition-coverage="100% (4/4)" />
                 <line number="114" hits="32" branch="false" />
                 <line number="115" hits="172" branch="false" />
                 <line number="117" hits="48" branch="true" condition-coverage="100% (2/2)" />
@@ -845,10 +845,10 @@
                 <line number="106" hits="224" branch="true" condition-coverage="100% (2/2)" />
                 <line number="107" hits="160" branch="true" condition-coverage="100% (2/2)" />
                 <line number="108" hits="40" branch="false" />
-                <line number="109" hits="920" branch="true" condition-coverage="100% (2/2)" />
+                <line number="109" hits="912" branch="true" condition-coverage="100% (2/2)" />
                 <line number="110" hits="188" branch="false" />
-                <line number="111" hits="376" branch="false" />
-                <line number="113" hits="376" branch="true" condition-coverage="100% (4/4)" />
+                <line number="111" hits="372" branch="false" />
+                <line number="113" hits="372" branch="true" condition-coverage="100% (4/4)" />
                 <line number="114" hits="32" branch="false" />
                 <line number="115" hits="172" branch="false" />
                 <line number="117" hits="48" branch="true" condition-coverage="100% (2/2)" />
@@ -921,10 +921,10 @@
             <line number="106" hits="224" branch="true" condition-coverage="100% (2/2)" />
             <line number="107" hits="160" branch="true" condition-coverage="100% (2/2)" />
             <line number="108" hits="40" branch="false" />
-            <line number="109" hits="920" branch="true" condition-coverage="100% (2/2)" />
+            <line number="109" hits="912" branch="true" condition-coverage="100% (2/2)" />
             <line number="110" hits="188" branch="false" />
-            <line number="111" hits="376" branch="false" />
-            <line number="113" hits="376" branch="true" condition-coverage="100% (4/4)" />
+            <line number="111" hits="372" branch="false" />
+            <line number="113" hits="372" branch="true" condition-coverage="100% (4/4)" />
             <line number="114" hits="32" branch="false" />
             <line number="115" hits="172" branch="false" />
             <line number="117" hits="48" branch="true" condition-coverage="100% (2/2)" />
@@ -964,7 +964,7 @@
             <line number="193" hits="208" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Converters.EnumTextConverter`1" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Converters\EnumTextConverterT.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="PropertyGridHelpers.Converters.EnumTextConverter`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Converters\EnumTextConverterT.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -976,7 +976,7 @@
             <line number="26" hits="840" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Converters.TypeConverter`1" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\Converters\TypeConverter.cs" line-rate="1" branch-rate="1" complexity="24">
+        <class name="PropertyGridHelpers.Converters.TypeConverter`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Converters\TypeConverter.cs" line-rate="1" branch-rate="1" complexity="24">
           <methods>
             <method name="CanConvertTo" signature="(System.ComponentModel.ITypeDescriptorContext,System.Type)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -1077,7 +1077,7 @@
             <line number="93" hits="128" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.TypeDescriptors.CustomTypeDescriptorContext" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\TypeDescriptors\CustomTypeDescriptorContext.cs" line-rate="1" branch-rate="1" complexity="9">
+        <class name="PropertyGridHelpers.TypeDescriptors.CustomTypeDescriptorContext" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\TypeDescriptors\CustomTypeDescriptorContext.cs" line-rate="1" branch-rate="1" complexity="9">
           <methods>
             <method name="get_Container" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1086,12 +1086,12 @@
             </method>
             <method name="get_Instance" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="54" hits="400" branch="false" />
+                <line number="54" hits="416" branch="false" />
               </lines>
             </method>
             <method name="get_PropertyDescriptor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="68" hits="528" branch="false" />
+                <line number="68" hits="608" branch="false" />
               </lines>
             </method>
             <method name="GetService" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="1">
@@ -1112,32 +1112,32 @@
             </method>
             <method name=".ctor" signature="(System.ComponentModel.PropertyDescriptor,System.Object)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="29" hits="112" branch="false" />
-                <line number="30" hits="112" branch="false" />
-                <line number="31" hits="112" branch="false" />
-                <line number="32" hits="56" branch="false" />
-                <line number="33" hits="112" branch="false" />
-                <line number="34" hits="112" branch="false" />
-                <line number="35" hits="112" branch="false" />
+                <line number="29" hits="120" branch="false" />
+                <line number="30" hits="120" branch="false" />
+                <line number="31" hits="120" branch="false" />
+                <line number="32" hits="60" branch="false" />
+                <line number="33" hits="120" branch="false" />
+                <line number="34" hits="120" branch="false" />
+                <line number="35" hits="120" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.ComponentModel.PropertyDescriptor,System.Object)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="112" branch="false" />
-                <line number="14" hits="112" branch="false" />
-                <line number="15" hits="112" branch="false" />
-                <line number="29" hits="112" branch="false" />
-                <line number="30" hits="112" branch="false" />
-                <line number="31" hits="112" branch="false" />
-                <line number="32" hits="56" branch="false" />
-                <line number="33" hits="112" branch="false" />
-                <line number="34" hits="112" branch="false" />
-                <line number="35" hits="112" branch="false" />
+                <line number="13" hits="120" branch="false" />
+                <line number="14" hits="120" branch="false" />
+                <line number="15" hits="120" branch="false" />
+                <line number="29" hits="120" branch="false" />
+                <line number="30" hits="120" branch="false" />
+                <line number="31" hits="120" branch="false" />
+                <line number="32" hits="60" branch="false" />
+                <line number="33" hits="120" branch="false" />
+                <line number="34" hits="120" branch="false" />
+                <line number="35" hits="120" branch="false" />
                 <line number="44" hits="32" branch="false" />
-                <line number="54" hits="400" branch="false" />
-                <line number="56" hits="112" branch="false" />
-                <line number="68" hits="528" branch="false" />
-                <line number="70" hits="112" branch="false" />
+                <line number="54" hits="416" branch="false" />
+                <line number="56" hits="120" branch="false" />
+                <line number="68" hits="608" branch="false" />
+                <line number="70" hits="120" branch="false" />
               </lines>
             </method>
             <method name="OnComponentChanged" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1147,28 +1147,28 @@
             </method>
           </methods>
           <lines>
-            <line number="13" hits="112" branch="false" />
-            <line number="14" hits="112" branch="false" />
-            <line number="15" hits="112" branch="false" />
-            <line number="29" hits="112" branch="false" />
-            <line number="30" hits="112" branch="false" />
-            <line number="31" hits="112" branch="false" />
-            <line number="32" hits="56" branch="false" />
-            <line number="33" hits="112" branch="false" />
-            <line number="34" hits="112" branch="false" />
-            <line number="35" hits="112" branch="false" />
+            <line number="13" hits="120" branch="false" />
+            <line number="14" hits="120" branch="false" />
+            <line number="15" hits="120" branch="false" />
+            <line number="29" hits="120" branch="false" />
+            <line number="30" hits="120" branch="false" />
+            <line number="31" hits="120" branch="false" />
+            <line number="32" hits="60" branch="false" />
+            <line number="33" hits="120" branch="false" />
+            <line number="34" hits="120" branch="false" />
+            <line number="35" hits="120" branch="false" />
             <line number="44" hits="32" branch="false" />
-            <line number="54" hits="400" branch="false" />
-            <line number="56" hits="112" branch="false" />
-            <line number="68" hits="528" branch="false" />
-            <line number="70" hits="112" branch="false" />
+            <line number="54" hits="416" branch="false" />
+            <line number="56" hits="120" branch="false" />
+            <line number="68" hits="608" branch="false" />
+            <line number="70" hits="120" branch="false" />
             <line number="80" hits="32" branch="false" />
             <line number="86" hits="16" branch="false" />
             <line number="87" hits="32" branch="false" />
             <line number="93" hits="32" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.CollectionUIEditor`1" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\UIEditors\CollectionUIEditor.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="PropertyGridHelpers.UIEditors.CollectionUIEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\CollectionUIEditor.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="CreateInstance" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -1190,7 +1190,7 @@
             <line number="27" hits="32" branch="true" condition-coverage="100% (2/2)" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.FlagEnumUIEditor" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\UIEditors\FlagEnumUIEditor.cs" line-rate="1" branch-rate="1" complexity="29">
+        <class name="PropertyGridHelpers.UIEditors.FlagEnumUIEditor" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\FlagEnumUIEditor.cs" line-rate="1" branch-rate="1" complexity="29">
           <methods>
             <method name="get_FlagEnumCB" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1321,7 +1321,7 @@
             <line number="106" hits="48" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.FlagEnumUIEditor`1" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\UIEditors\FlagEnumUIEditorT.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="PropertyGridHelpers.UIEditors.FlagEnumUIEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\FlagEnumUIEditorT.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1333,7 +1333,7 @@
             <line number="19" hits="32" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.ImageTextUIEditor" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\UIEditors\ImageTextUIEditor.cs" line-rate="0.9308755760368663" branch-rate="0.7962962962962963" complexity="225">
+        <class name="PropertyGridHelpers.UIEditors.ImageTextUIEditor" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\ImageTextUIEditor.cs" line-rate="0.9308755760368663" branch-rate="0.7962962962962963" complexity="225">
           <methods>
             <method name="get_EnumType" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -1342,7 +1342,7 @@
             </method>
             <method name="get_ResourcePath" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="53" hits="448" branch="false" />
+                <line number="53" hits="464" branch="false" />
               </lines>
             </method>
             <method name="get_FileExtension" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1361,8 +1361,8 @@
             </method>
             <method name="PaintValue" signature="(System.Drawing.Design.PaintValueEventArgs)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="112" hits="80" branch="false" />
-                <line number="114" hits="160" branch="false" />
+                <line number="112" hits="88" branch="false" />
+                <line number="114" hits="176" branch="false" />
                 <line number="118" hits="160" branch="false" />
                 <line number="119" hits="128" branch="true" condition-coverage="100% (2/2)" />
                 <line number="120" hits="112" branch="false" />
@@ -1617,11 +1617,11 @@
             </method>
             <method name=".ctor" signature="(System.Type,System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="86" hits="128" branch="false" />
-                <line number="87" hits="64" branch="false" />
-                <line number="88" hits="128" branch="false" />
-                <line number="89" hits="128" branch="false" />
-                <line number="90" hits="128" branch="false" />
+                <line number="86" hits="144" branch="false" />
+                <line number="87" hits="72" branch="false" />
+                <line number="88" hits="144" branch="false" />
+                <line number="89" hits="144" branch="false" />
+                <line number="90" hits="144" branch="false" />
               </lines>
             </method>
             <method name="GetPaintValueSupported" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="1">
@@ -1633,7 +1633,7 @@
             </method>
             <method name="PaintValue" signature="(System.Drawing.Design.PaintValueEventArgs)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="114" hits="160" branch="false" />
+                <line number="114" hits="176" branch="false" />
                 <line number="118" hits="160" branch="false" />
                 <line number="119" hits="128" branch="true" condition-coverage="100% (2/2)" />
                 <line number="120" hits="112" branch="false" />
@@ -1860,25 +1860,25 @@
           </methods>
           <lines>
             <line number="45" hits="224" branch="false" />
-            <line number="53" hits="448" branch="false" />
+            <line number="53" hits="464" branch="false" />
             <line number="64" hits="176" branch="false" />
             <line number="75" hits="112" branch="false" />
             <line number="76" hits="56" branch="false" />
             <line number="77" hits="112" branch="false" />
             <line number="78" hits="112" branch="false" />
             <line number="79" hits="112" branch="false" />
-            <line number="86" hits="128" branch="false" />
-            <line number="87" hits="64" branch="false" />
-            <line number="88" hits="128" branch="false" />
-            <line number="89" hits="128" branch="false" />
-            <line number="90" hits="128" branch="false" />
+            <line number="86" hits="144" branch="false" />
+            <line number="87" hits="72" branch="false" />
+            <line number="88" hits="144" branch="false" />
+            <line number="89" hits="144" branch="false" />
+            <line number="90" hits="144" branch="false" />
             <line number="101" hits="8" branch="false" />
             <line number="102" hits="16" branch="false" />
             <line number="103" hits="16" branch="false" />
             <line number="104" hits="16" branch="false" />
             <line number="105" hits="8" branch="false" />
-            <line number="112" hits="80" branch="false" />
-            <line number="114" hits="160" branch="false" />
+            <line number="112" hits="88" branch="false" />
+            <line number="114" hits="176" branch="false" />
             <line number="118" hits="160" branch="false" />
             <line number="119" hits="128" branch="true" condition-coverage="100% (2/2)" />
             <line number="120" hits="112" branch="false" />
@@ -2078,7 +2078,7 @@
             <line number="613" hits="16" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.ImageTextUIEditor`1" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\UIEditors\ImageTextUIEditorT.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="PropertyGridHelpers.UIEditors.ImageTextUIEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\ImageTextUIEditorT.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -2096,7 +2096,49 @@
             <line number="48" hits="40" branch="false" />
           </lines>
         </class>
-        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_Converters_TypeConverter_T_WinRTTypeDetails" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net6.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_Converters_TypeConverter_T_WinRTTypeDetails" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net6.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="6" hits="0" branch="false" />
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="8" hits="0" branch="false" />
+                <line number="9" hits="0" branch="false" />
+                <line number="10" hits="0" branch="false" />
+                <line number="11" hits="0" branch="false" />
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="6" hits="0" branch="false" />
+            <line number="8" hits="0" branch="false" />
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_TypeDescriptors_CustomTypeDescriptorContextWinRTTypeDetails" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net6.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -2138,7 +2180,7 @@
             <line number="32" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_TypeDescriptors_CustomTypeDescriptorContextWinRTTypeDetails" filename="c:\agent\_work\10\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net6.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="WinRT.PropertyGridHelpersVtableClasses.PropertyGridHelpers_UIEditors_FlagEnumUIEditor_T_WinRTTypeDetails" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\obj\any cpu\Debug\net8.0-windows10.0.17763.0\WinRT.SourceGenerator\Generator.WinRTAotSourceGenerator\WinRTCCWVtable.g.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="GetExposedInterfaces" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
