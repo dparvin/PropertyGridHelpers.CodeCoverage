@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="1" lines-covered="658" lines-valid="658" branches-covered="276" branches-valid="276" complexity="618" version="0" timestamp="1744053208">
+<coverage line-rate="1" branch-rate="1" lines-covered="658" lines-valid="658" branches-covered="276" branches-valid="276" complexity="618" version="0" timestamp="1744315712">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
@@ -411,7 +411,7 @@
           <methods>
             <method name="Dispose" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="216" branch="false" />
+                <line number="24" hits="212" branch="false" />
               </lines>
             </method>
             <method name="InitializeComponent" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -673,7 +673,7 @@
           </methods>
           <lines>
             <line number="18" hits="432" branch="false" />
-            <line number="24" hits="216" branch="false" />
+            <line number="24" hits="212" branch="false" />
             <line number="31" hits="216" branch="false" />
             <line number="42" hits="180" branch="false" />
             <line number="43" hits="360" branch="false" />
@@ -1863,18 +1863,18 @@
           <methods>
             <method name="GetProperties" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="37" hits="8" branch="false" />
+                <line number="39" hits="8" branch="false" />
               </lines>
             </method>
             <method name="GetProperties" signature="(System.Attribute[])" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="45" hits="8" branch="false" />
-                <line number="46" hits="16" branch="false" />
-                <line number="47" hits="16" branch="false" />
-                <line number="48" hits="96" branch="true" condition-coverage="100% (2/2)" />
-                <line number="49" hits="32" branch="false" />
-                <line number="50" hits="16" branch="false" />
                 <line number="51" hits="8" branch="false" />
+                <line number="52" hits="16" branch="false" />
+                <line number="53" hits="16" branch="false" />
+                <line number="54" hits="96" branch="true" condition-coverage="100% (2/2)" />
+                <line number="55" hits="32" branch="false" />
+                <line number="56" hits="16" branch="false" />
+                <line number="57" hits="8" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.ComponentModel.ICustomTypeDescriptor)" line-rate="1" branch-rate="1" complexity="1">
@@ -1884,24 +1884,24 @@
             </method>
             <method name="GetProperties" signature="(System.Attribute[])" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="46" hits="16" branch="false" />
-                <line number="47" hits="16" branch="false" />
-                <line number="48" hits="96" branch="true" condition-coverage="100% (2/2)" />
-                <line number="49" hits="32" branch="false" />
-                <line number="50" hits="16" branch="false" />
+                <line number="52" hits="16" branch="false" />
+                <line number="53" hits="16" branch="false" />
+                <line number="54" hits="96" branch="true" condition-coverage="100% (2/2)" />
+                <line number="55" hits="32" branch="false" />
+                <line number="56" hits="16" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="16" hits="32" branch="false" />
-            <line number="37" hits="8" branch="false" />
-            <line number="45" hits="8" branch="false" />
-            <line number="46" hits="16" branch="false" />
-            <line number="47" hits="16" branch="false" />
-            <line number="48" hits="96" branch="true" condition-coverage="100% (2/2)" />
-            <line number="49" hits="32" branch="false" />
-            <line number="50" hits="16" branch="false" />
+            <line number="39" hits="8" branch="false" />
             <line number="51" hits="8" branch="false" />
+            <line number="52" hits="16" branch="false" />
+            <line number="53" hits="16" branch="false" />
+            <line number="54" hits="96" branch="true" condition-coverage="100% (2/2)" />
+            <line number="55" hits="32" branch="false" />
+            <line number="56" hits="16" branch="false" />
+            <line number="57" hits="8" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.UIEditors.CollectionUIEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\CollectionUIEditor.cs" line-rate="1" branch-rate="1" complexity="3">
