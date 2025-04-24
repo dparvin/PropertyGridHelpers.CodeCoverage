@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="1" branch-rate="1" lines-covered="658" lines-valid="658" branches-covered="276" branches-valid="276" complexity="618" version="0" timestamp="1745248650">
+<coverage line-rate="1" branch-rate="1" lines-covered="658" lines-valid="658" branches-covered="276" branches-valid="276" complexity="618" version="0" timestamp="1745434774">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
@@ -411,7 +411,7 @@
           <methods>
             <method name="Dispose" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="216" branch="false" />
+                <line number="24" hits="214" branch="false" />
               </lines>
             </method>
             <method name="InitializeComponent" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -673,7 +673,7 @@
           </methods>
           <lines>
             <line number="18" hits="432" branch="false" />
-            <line number="24" hits="216" branch="false" />
+            <line number="24" hits="214" branch="false" />
             <line number="31" hits="216" branch="false" />
             <line number="42" hits="180" branch="false" />
             <line number="43" hits="360" branch="false" />
