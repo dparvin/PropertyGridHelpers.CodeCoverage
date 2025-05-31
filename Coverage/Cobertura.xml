@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9143126177024482" branch-rate="0.9086294416243654" lines-covered="971" lines-valid="1062" branches-covered="358" branches-valid="394" complexity="509" version="0" timestamp="1748539886">
+<coverage line-rate="0.9143126177024482" branch-rate="0.9086294416243654" lines-covered="971" lines-valid="1062" branches-covered="358" branches-valid="394" complexity="509" version="0" timestamp="1748650947">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
@@ -2559,47 +2559,47 @@
           <methods>
             <method name="AddService" signature="(System.Type, object)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="24" hits="36" branch="false" />
+                <line number="39" hits="36" branch="false" />
               </lines>
             </method>
             <method name="GetService" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="32" hits="28" branch="false" />
-                <line number="33" hits="36" branch="false" />
-                <line number="34" hits="36" branch="false" />
-                <line number="35" hits="28" branch="false" />
+                <line number="49" hits="28" branch="false" />
+                <line number="50" hits="36" branch="false" />
+                <line number="51" hits="36" branch="false" />
+                <line number="52" hits="28" branch="false" />
               </lines>
             </method>
             <method name="CustomServiceProvider" signature="()" line-rate="1" branch-rate="1">
               <lines>
-                <line number="16" hits="16" branch="false" />
+                <line number="28" hits="16" branch="false" />
               </lines>
             </method>
             <method name="GetService" signature="(System.Type)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="33" hits="36" branch="false" />
-                <line number="34" hits="36" branch="false" />
+                <line number="50" hits="36" branch="false" />
+                <line number="51" hits="36" branch="false" />
               </lines>
             </method>
             <method name="AddService" signature="(System.Type,System.Object)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="36" branch="false" />
+                <line number="39" hits="36" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="20" branch="false" />
+                <line number="26" hits="20" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="14" hits="20" branch="false" />
-            <line number="16" hits="16" branch="false" />
-            <line number="24" hits="36" branch="false" />
-            <line number="32" hits="28" branch="false" />
-            <line number="33" hits="36" branch="false" />
-            <line number="34" hits="36" branch="false" />
-            <line number="35" hits="28" branch="false" />
+            <line number="26" hits="20" branch="false" />
+            <line number="28" hits="16" branch="false" />
+            <line number="39" hits="36" branch="false" />
+            <line number="49" hits="28" branch="false" />
+            <line number="50" hits="36" branch="false" />
+            <line number="51" hits="36" branch="false" />
+            <line number="52" hits="28" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.Support.RangeBasedBaseNameExtractor" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Support\RangeBasedBaseNameExtractor.cs" line-rate="1" branch-rate="1" complexity="6">
