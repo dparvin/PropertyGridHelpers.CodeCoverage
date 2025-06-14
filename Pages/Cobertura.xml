@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9649122807017544" branch-rate="0.9344262295081968" lines-covered="1155" lines-valid="1197" branches-covered="456" branches-valid="488" complexity="614" version="0" timestamp="1749764304">
+<coverage line-rate="0.9649708090075062" branch-rate="0.9473684210526315" lines-covered="1157" lines-valid="1199" branches-covered="468" branches-valid="494" complexity="619" version="0" timestamp="1749844475">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.9649122807017544" branch-rate="0.9344262295081968" complexity="614">
+    <package name="PropertyGridHelpers" line-rate="0.9649708090075062" branch-rate="0.9473684210526315" complexity="619">
       <classes>
         <class name="PropertyGridHelpers.Attributes.AllowBlankAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\AllowBlankAttribute.cs" line-rate="1" branch-rate="1" complexity="37">
           <methods>
@@ -579,7 +579,7 @@
             <line number="83" hits="28" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.EnumImageAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumImageAttribute.cs" line-rate="1" branch-rate="0.75" complexity="18">
+        <class name="PropertyGridHelpers.Attributes.EnumImageAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumImageAttribute.cs" line-rate="1" branch-rate="1" complexity="18">
           <methods>
             <method name="EnumImageAttribute" signature="()" line-rate="1" branch-rate="1">
               <lines>
@@ -601,11 +601,11 @@
             </method>
             <method name="EnumImageAttribute" signature="(string, PropertyGridHelpers.Enums.ImageLocation)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="66" hits="108" branch="false" />
-                <line number="67" hits="100" branch="false" />
-                <line number="68" hits="108" branch="false" />
-                <line number="69" hits="108" branch="false" />
-                <line number="70" hits="108" branch="false" />
+                <line number="66" hits="112" branch="false" />
+                <line number="67" hits="104" branch="false" />
+                <line number="68" hits="112" branch="false" />
+                <line number="69" hits="112" branch="false" />
+                <line number="70" hits="112" branch="false" />
               </lines>
             </method>
             <method name="GetEnumImage" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="4">
@@ -628,16 +628,16 @@
             </method>
             <method name="Get" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="123" hits="132" branch="true" condition-coverage="100% (2/2)" />
-                <line number="124" hits="132" branch="false" />
-                <line number="125" hits="132" branch="false" />
+                <line number="123" hits="136" branch="true" condition-coverage="100% (2/2)" />
+                <line number="124" hits="136" branch="false" />
+                <line number="125" hits="136" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="0.5" complexity="6">
+            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
-                <line number="133" hits="20" branch="true" condition-coverage="50% (3/6)" />
-                <line number="134" hits="20" branch="false" />
-                <line number="135" hits="20" branch="false" />
+                <line number="133" hits="32" branch="true" condition-coverage="100% (6/6)" />
+                <line number="134" hits="32" branch="false" />
+                <line number="135" hits="32" branch="false" />
               </lines>
             </method>
             <method name="GetEnumImage" signature="(System.Enum)" line-rate="1" branch-rate="1">
@@ -653,7 +653,7 @@
             </method>
             <method name="get_EnumImage" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="80" hits="56" branch="false" />
+                <line number="80" hits="60" branch="false" />
               </lines>
             </method>
             <method name="get_ImageLocation" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -681,11 +681,11 @@
             </method>
             <method name=".ctor" signature="(System.String,PropertyGridHelpers.Enums.ImageLocation)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="66" hits="108" branch="false" />
-                <line number="67" hits="100" branch="false" />
-                <line number="68" hits="108" branch="false" />
-                <line number="69" hits="108" branch="false" />
-                <line number="70" hits="108" branch="false" />
+                <line number="66" hits="112" branch="false" />
+                <line number="67" hits="104" branch="false" />
+                <line number="68" hits="112" branch="false" />
+                <line number="69" hits="112" branch="false" />
+                <line number="70" hits="112" branch="false" />
               </lines>
             </method>
           </methods>
@@ -700,12 +700,12 @@
             <line number="56" hits="24" branch="false" />
             <line number="57" hits="24" branch="false" />
             <line number="58" hits="24" branch="false" />
-            <line number="66" hits="108" branch="false" />
-            <line number="67" hits="100" branch="false" />
-            <line number="68" hits="108" branch="false" />
-            <line number="69" hits="108" branch="false" />
-            <line number="70" hits="108" branch="false" />
-            <line number="80" hits="56" branch="false" />
+            <line number="66" hits="112" branch="false" />
+            <line number="67" hits="104" branch="false" />
+            <line number="68" hits="112" branch="false" />
+            <line number="69" hits="112" branch="false" />
+            <line number="70" hits="112" branch="false" />
+            <line number="80" hits="60" branch="false" />
             <line number="91" hits="44" branch="false" />
             <line number="100" hits="60" branch="false" />
             <line number="101" hits="68" branch="false" />
@@ -717,15 +717,15 @@
             <line number="107" hits="64" branch="false" />
             <line number="108" hits="60" branch="false" />
             <line number="115" hits="24" branch="false" />
-            <line number="123" hits="132" branch="true" condition-coverage="100% (2/2)" />
-            <line number="124" hits="132" branch="false" />
-            <line number="125" hits="132" branch="false" />
-            <line number="133" hits="20" branch="true" condition-coverage="50% (3/6)" />
-            <line number="134" hits="20" branch="false" />
-            <line number="135" hits="20" branch="false" />
+            <line number="123" hits="136" branch="true" condition-coverage="100% (2/2)" />
+            <line number="124" hits="136" branch="false" />
+            <line number="125" hits="136" branch="false" />
+            <line number="133" hits="32" branch="true" condition-coverage="100% (6/6)" />
+            <line number="134" hits="32" branch="false" />
+            <line number="135" hits="32" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.EnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumTextAttribute.cs" line-rate="1" branch-rate="0.625" complexity="11">
+        <class name="PropertyGridHelpers.Attributes.EnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumTextAttribute.cs" line-rate="1" branch-rate="1" complexity="11">
           <methods>
             <method name="EnumTextAttribute" signature="(string)" line-rate="1" branch-rate="1">
               <lines>
@@ -739,44 +739,48 @@
             </method>
             <method name="Get" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="106" hits="136" branch="true" condition-coverage="100% (2/2)" />
-                <line number="107" hits="136" branch="false" />
-                <line number="108" hits="136" branch="false" />
+                <line number="106" hits="140" branch="true" condition-coverage="100% (2/2)" />
+                <line number="107" hits="140" branch="false" />
+                <line number="108" hits="140" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="0.5" complexity="6">
+            <method name="Get" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
-                <line number="116" hits="20" branch="true" condition-coverage="50% (3/6)" />
-                <line number="117" hits="20" branch="false" />
-                <line number="118" hits="20" branch="false" />
+                <line number="116" hits="36" branch="true" condition-coverage="100% (6/6)" />
+                <line number="117" hits="36" branch="false" />
+                <line number="118" hits="36" branch="false" />
+                <line number="119" hits="36" branch="false" />
+                <line number="120" hits="36" branch="false" />
               </lines>
             </method>
             <method name="get_EnumText" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="82" hits="112" branch="false" />
+                <line number="82" hits="116" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="35" hits="112" branch="false" />
+                <line number="35" hits="116" branch="false" />
                 <line number="71" hits="16" branch="false" />
-                <line number="82" hits="112" branch="false" />
-                <line number="84" hits="112" branch="false" />
+                <line number="82" hits="116" branch="false" />
+                <line number="84" hits="116" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="35" hits="112" branch="false" />
+            <line number="35" hits="116" branch="false" />
             <line number="71" hits="16" branch="false" />
-            <line number="82" hits="112" branch="false" />
-            <line number="84" hits="112" branch="false" />
+            <line number="82" hits="116" branch="false" />
+            <line number="84" hits="116" branch="false" />
             <line number="96" hits="28" branch="false" />
-            <line number="106" hits="136" branch="true" condition-coverage="100% (2/2)" />
-            <line number="107" hits="136" branch="false" />
-            <line number="108" hits="136" branch="false" />
-            <line number="116" hits="20" branch="true" condition-coverage="50% (3/6)" />
-            <line number="117" hits="20" branch="false" />
-            <line number="118" hits="20" branch="false" />
+            <line number="106" hits="140" branch="true" condition-coverage="100% (2/2)" />
+            <line number="107" hits="140" branch="false" />
+            <line number="108" hits="140" branch="false" />
+            <line number="116" hits="36" branch="true" condition-coverage="100% (6/6)" />
+            <line number="117" hits="36" branch="false" />
+            <line number="118" hits="36" branch="false" />
+            <line number="119" hits="36" branch="false" />
+            <line number="120" hits="36" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.Attributes.FileExtensionAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\FileExtensionAttribute.cs" line-rate="1" branch-rate="1" complexity="9">
@@ -3153,14 +3157,14 @@
             </method>
             <method name="GetFirstCustomAttribute&lt;T&gt;" signature="(System.Reflection.MemberInfo)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="389" hits="540" branch="false" />
-                <line number="394" hits="548" branch="false" />
-                <line number="396" hits="540" branch="false" />
+                <line number="389" hits="548" branch="false" />
+                <line number="394" hits="556" branch="false" />
+                <line number="396" hits="548" branch="false" />
               </lines>
             </method>
             <method name="GetEnumField" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="404" hits="368" branch="false" />
+                <line number="404" hits="376" branch="false" />
               </lines>
             </method>
             <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="0.8333333333333334" branch-rate="0.75" complexity="4">
@@ -3327,7 +3331,7 @@
             </method>
             <method name="GetFirstCustomAttribute&lt;T&gt;" signature="(System.Reflection.MemberInfo)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="394" hits="548" branch="false" />
+                <line number="394" hits="556" branch="false" />
               </lines>
             </method>
             <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="0.7777777777777778" branch-rate="0.75">
@@ -3419,9 +3423,9 @@
             </method>
             <method name="GetFirstCustomAttribute" signature="(System.Reflection.MemberInfo)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="389" hits="540" branch="false" />
-                <line number="394" hits="548" branch="false" />
-                <line number="396" hits="540" branch="false" />
+                <line number="389" hits="548" branch="false" />
+                <line number="394" hits="556" branch="false" />
+                <line number="396" hits="548" branch="false" />
               </lines>
             </method>
             <method name="SetLanguage" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
@@ -3560,10 +3564,10 @@
             <line number="376" hits="20" branch="false" />
             <line number="379" hits="48" branch="false" />
             <line number="380" hits="40" branch="false" />
-            <line number="389" hits="540" branch="false" />
-            <line number="394" hits="548" branch="false" />
-            <line number="396" hits="540" branch="false" />
-            <line number="404" hits="368" branch="false" />
+            <line number="389" hits="548" branch="false" />
+            <line number="394" hits="556" branch="false" />
+            <line number="396" hits="548" branch="false" />
+            <line number="404" hits="376" branch="false" />
             <line number="415" hits="184" branch="false" />
             <line number="417" hits="176" branch="false" />
             <line number="419" hits="16" branch="false" />
@@ -3653,7 +3657,7 @@
             <line number="115" hits="12" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.TypeDescriptors.CustomTypeDescriptorContext" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\TypeDescriptors\CustomTypeDescriptorContext.cs" line-rate="1" branch-rate="1" complexity="8">
+        <class name="PropertyGridHelpers.TypeDescriptors.CustomTypeDescriptorContext" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\TypeDescriptors\CustomTypeDescriptorContext.cs" line-rate="1" branch-rate="1" complexity="13">
           <methods>
             <method name="CustomTypeDescriptorContext" signature="(System.ComponentModel.PropertyDescriptor, object)" line-rate="1" branch-rate="1">
               <lines>
@@ -3689,11 +3693,11 @@
             </method>
             <method name="Create" signature="(System.Type, string)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="102" hits="36" branch="false" />
-                <line number="103" hits="44" branch="false" />
-                <line number="104" hits="44" branch="false" />
-                <line number="105" hits="44" branch="false" />
-                <line number="106" hits="36" branch="false" />
+                <line number="102" hits="60" branch="false" />
+                <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
+                <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
+                <line number="105" hits="68" branch="false" />
+                <line number="106" hits="60" branch="false" />
               </lines>
             </method>
             <method name="OnComponentChanged" signature="()" line-rate="1" branch-rate="1">
@@ -3703,9 +3707,9 @@
             </method>
             <method name="Create" signature="(System.Type, string)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="103" hits="44" branch="false" />
-                <line number="104" hits="44" branch="false" />
-                <line number="105" hits="44" branch="false" />
+                <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
+                <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
+                <line number="105" hits="68" branch="false" />
               </lines>
             </method>
             <method name="get_Container" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -3715,28 +3719,28 @@
             </method>
             <method name="get_Instance" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="54" hits="604" branch="false" />
+                <line number="54" hits="640" branch="false" />
               </lines>
             </method>
             <method name="get_PropertyDescriptor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="68" hits="1008" branch="false" />
+                <line number="68" hits="1032" branch="false" />
               </lines>
             </method>
-            <method name="Create" signature="(System.Type,System.String)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="Create" signature="(System.Type,System.String)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
-                <line number="102" hits="36" branch="false" />
-                <line number="103" hits="44" branch="false" />
-                <line number="104" hits="44" branch="false" />
-                <line number="105" hits="44" branch="false" />
-                <line number="106" hits="36" branch="false" />
+                <line number="102" hits="60" branch="false" />
+                <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
+                <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
+                <line number="105" hits="68" branch="false" />
+                <line number="106" hits="60" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.ComponentModel.PropertyDescriptor,System.Object)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="308" branch="false" />
-                <line number="14" hits="308" branch="false" />
-                <line number="15" hits="308" branch="false" />
+                <line number="13" hits="336" branch="false" />
+                <line number="14" hits="336" branch="false" />
+                <line number="15" hits="336" branch="false" />
                 <line number="29" hits="16" branch="false" />
                 <line number="30" hits="16" branch="false" />
                 <line number="31" hits="16" branch="false" />
@@ -3745,17 +3749,17 @@
                 <line number="34" hits="16" branch="false" />
                 <line number="35" hits="16" branch="false" />
                 <line number="44" hits="40" branch="false" />
-                <line number="54" hits="604" branch="false" />
-                <line number="56" hits="308" branch="false" />
-                <line number="68" hits="1008" branch="false" />
-                <line number="70" hits="308" branch="false" />
+                <line number="54" hits="640" branch="false" />
+                <line number="56" hits="336" branch="false" />
+                <line number="68" hits="1032" branch="false" />
+                <line number="70" hits="336" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="308" branch="false" />
-            <line number="14" hits="308" branch="false" />
-            <line number="15" hits="308" branch="false" />
+            <line number="13" hits="336" branch="false" />
+            <line number="14" hits="336" branch="false" />
+            <line number="15" hits="336" branch="false" />
             <line number="29" hits="16" branch="false" />
             <line number="30" hits="16" branch="false" />
             <line number="31" hits="16" branch="false" />
@@ -3764,19 +3768,19 @@
             <line number="34" hits="16" branch="false" />
             <line number="35" hits="16" branch="false" />
             <line number="44" hits="40" branch="false" />
-            <line number="54" hits="604" branch="false" />
-            <line number="56" hits="308" branch="false" />
-            <line number="68" hits="1008" branch="false" />
-            <line number="70" hits="308" branch="false" />
+            <line number="54" hits="640" branch="false" />
+            <line number="56" hits="336" branch="false" />
+            <line number="68" hits="1032" branch="false" />
+            <line number="70" hits="336" branch="false" />
             <line number="80" hits="40" branch="false" />
             <line number="86" hits="32" branch="false" />
             <line number="87" hits="40" branch="false" />
             <line number="93" hits="40" branch="false" />
-            <line number="102" hits="36" branch="false" />
-            <line number="103" hits="44" branch="false" />
-            <line number="104" hits="44" branch="false" />
-            <line number="105" hits="44" branch="false" />
-            <line number="106" hits="36" branch="false" />
+            <line number="102" hits="60" branch="false" />
+            <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
+            <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
+            <line number="105" hits="68" branch="false" />
+            <line number="106" hits="60" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.TypeDescriptors.LocalizedTypeDescriptor" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\TypeDescriptors\LocalizedTypeDescriptor.cs" line-rate="1" branch-rate="1" complexity="4">
