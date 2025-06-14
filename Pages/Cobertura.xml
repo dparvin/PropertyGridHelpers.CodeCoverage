@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9649708090075062" branch-rate="0.9473684210526315" lines-covered="1157" lines-valid="1199" branches-covered="468" branches-valid="494" complexity="619" version="0" timestamp="1749844475">
+<coverage line-rate="0.9683069224353628" branch-rate="0.9473684210526315" lines-covered="1161" lines-valid="1199" branches-covered="468" branches-valid="494" complexity="619" version="0" timestamp="1749862001">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.9649708090075062" branch-rate="0.9473684210526315" complexity="619">
+    <package name="PropertyGridHelpers" line-rate="0.9683069224353628" branch-rate="0.9473684210526315" complexity="619">
       <classes>
         <class name="PropertyGridHelpers.Attributes.AllowBlankAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\AllowBlankAttribute.cs" line-rate="1" branch-rate="1" complexity="37">
           <methods>
@@ -1143,12 +1143,12 @@
           <methods>
             <method name="AutoCompleteComboBox" signature="()" line-rate="0.84" branch-rate="0.7">
               <lines>
-                <line number="36" hits="48" branch="false" />
-                <line number="37" hits="40" branch="false" />
-                <line number="38" hits="48" branch="false" />
-                <line number="39" hits="48" branch="false" />
-                <line number="40" hits="48" branch="false" />
-                <line number="41" hits="48" branch="false" />
+                <line number="36" hits="52" branch="false" />
+                <line number="37" hits="44" branch="false" />
+                <line number="38" hits="52" branch="false" />
+                <line number="39" hits="52" branch="false" />
+                <line number="40" hits="52" branch="false" />
+                <line number="41" hits="52" branch="false" />
                 <line number="57" hits="16" branch="false" />
                 <line number="58" hits="24" branch="true" condition-coverage="50% (1/2)" />
                 <line number="59" hits="0" branch="false" />
@@ -1167,7 +1167,7 @@
                 <line number="77" hits="24" branch="false" />
                 <line number="78" hits="16" branch="false" />
                 <line number="79" hits="24" branch="false" />
-                <line number="93" hits="64" branch="false" />
+                <line number="93" hits="68" branch="false" />
               </lines>
             </method>
             <method name="Value" signature="()" line-rate="0.8" branch-rate="0.5" complexity="NaN">
@@ -1277,12 +1277,12 @@
             </method>
             <method name=".ctor" signature="()" line-rate="0.84" branch-rate="0.7" complexity="1">
               <lines>
-                <line number="36" hits="48" branch="false" />
-                <line number="37" hits="40" branch="false" />
-                <line number="38" hits="48" branch="false" />
-                <line number="39" hits="48" branch="false" />
-                <line number="40" hits="48" branch="false" />
-                <line number="41" hits="48" branch="false" />
+                <line number="36" hits="52" branch="false" />
+                <line number="37" hits="44" branch="false" />
+                <line number="38" hits="52" branch="false" />
+                <line number="39" hits="52" branch="false" />
+                <line number="40" hits="52" branch="false" />
+                <line number="41" hits="52" branch="false" />
                 <line number="57" hits="16" branch="false" />
                 <line number="58" hits="24" branch="true" condition-coverage="50% (1/2)" />
                 <line number="59" hits="0" branch="false" />
@@ -1301,17 +1301,17 @@
                 <line number="77" hits="24" branch="false" />
                 <line number="78" hits="16" branch="false" />
                 <line number="79" hits="24" branch="false" />
-                <line number="93" hits="64" branch="false" />
+                <line number="93" hits="68" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="36" hits="48" branch="false" />
-            <line number="37" hits="40" branch="false" />
-            <line number="38" hits="48" branch="false" />
-            <line number="39" hits="48" branch="false" />
-            <line number="40" hits="48" branch="false" />
-            <line number="41" hits="48" branch="false" />
+            <line number="36" hits="52" branch="false" />
+            <line number="37" hits="44" branch="false" />
+            <line number="38" hits="52" branch="false" />
+            <line number="39" hits="52" branch="false" />
+            <line number="40" hits="52" branch="false" />
+            <line number="41" hits="52" branch="false" />
             <line number="57" hits="16" branch="false" />
             <line number="58" hits="24" branch="true" condition-coverage="50% (1/2)" />
             <line number="59" hits="0" branch="false" />
@@ -1330,7 +1330,7 @@
             <line number="77" hits="24" branch="false" />
             <line number="78" hits="16" branch="false" />
             <line number="79" hits="24" branch="false" />
-            <line number="93" hits="64" branch="false" />
+            <line number="93" hits="68" branch="false" />
             <line number="100" hits="12" branch="false" />
             <line number="101" hits="20" branch="false" />
             <line number="102" hits="20" branch="false" />
@@ -1927,7 +1927,7 @@
           <methods>
             <method name="EnumTextConverter" signature="(System.Type)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="28" hits="352" branch="false" />
+                <line number="28" hits="364" branch="false" />
               </lines>
             </method>
             <method name="CanConvertTo" signature="(System.ComponentModel.ITypeDescriptorContext, System.Type)" line-rate="1" branch-rate="1">
@@ -2181,12 +2181,12 @@
             </method>
             <method name=".ctor" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="28" hits="352" branch="false" />
+                <line number="28" hits="364" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="28" hits="352" branch="false" />
+            <line number="28" hits="364" branch="false" />
             <line number="46" hits="36" branch="true" condition-coverage="100% (4/4)" />
             <line number="47" hits="36" branch="false" />
             <line number="48" hits="36" branch="false" />
@@ -2262,12 +2262,12 @@
           <methods>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="26" hits="252" branch="false" />
+                <line number="26" hits="264" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="26" hits="252" branch="false" />
+            <line number="26" hits="264" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.Converters.EnumTextConverter&lt;T&gt;" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Converters\EnumTextConverterT.cs" line-rate="1" branch-rate="1" complexity="NaN">
@@ -3976,7 +3976,7 @@
             </method>
             <method name="get_Converter" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="60" hits="4" branch="false" />
+                <line number="60" hits="12" branch="false" />
               </lines>
             </method>
             <method name="EditValue" signature="(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)" line-rate="0.6875" branch-rate="0.7777777777777778" complexity="18">
@@ -4053,7 +4053,7 @@
             </method>
           </methods>
           <lines>
-            <line number="60" hits="4" branch="false" />
+            <line number="60" hits="12" branch="false" />
             <line number="78" hits="28" branch="false" />
             <line number="80" hits="36" branch="true" condition-coverage="100% (4/4)" />
             <line number="81" hits="24" branch="false" />
@@ -4120,32 +4120,32 @@
             <line number="179" hits="12" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.AutoCompleteEnumEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\AutoCompleteComboBoxEditorT.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="PropertyGridHelpers.UIEditors.AutoCompleteComboBoxEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\AutoCompleteComboBoxEditorT.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
-            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
+                <line number="17" hits="4" branch="false" />
+                <line number="18" hits="4" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
+            <line number="17" hits="4" branch="false" />
+            <line number="18" hits="4" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.UIEditors.AutoCompleteEnumEditor&lt;T&gt;" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\AutoCompleteComboBoxEditorT.cs" line-rate="0" branch-rate="1" complexity="NaN">
+        <class name="PropertyGridHelpers.UIEditors.AutoCompleteComboBoxEditor&lt;T&gt;" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\AutoCompleteComboBoxEditorT.cs" line-rate="1" branch-rate="1" complexity="NaN">
           <methods>
-            <method name="AutoCompleteEnumEditor" signature="()" line-rate="0" branch-rate="1">
+            <method name="AutoCompleteComboBoxEditor" signature="()" line-rate="1" branch-rate="1">
               <lines>
-                <line number="17" hits="0" branch="false" />
-                <line number="18" hits="0" branch="false" />
+                <line number="17" hits="16" branch="false" />
+                <line number="18" hits="16" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="17" hits="0" branch="false" />
-            <line number="18" hits="0" branch="false" />
+            <line number="17" hits="16" branch="false" />
+            <line number="18" hits="16" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.UIEditors.CollectionUIEditor`1" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\UIEditors\CollectionUIEditor.cs" line-rate="1" branch-rate="1" complexity="3">
@@ -4196,7 +4196,7 @@
           <methods>
             <method name="get_DropDownControl" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="56" hits="184" branch="false" />
+                <line number="56" hits="188" branch="false" />
               </lines>
             </method>
             <method name="GetEditStyle" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="1">
@@ -4255,7 +4255,7 @@
             </method>
           </methods>
           <lines>
-            <line number="56" hits="184" branch="false" />
+            <line number="56" hits="188" branch="false" />
             <line number="64" hits="8" branch="false" />
             <line number="84" hits="28" branch="false" />
             <line number="85" hits="28" branch="true" condition-coverage="100% (8/8)" />
