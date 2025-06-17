@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9605263157894737" branch-rate="0.9192307692307692" lines-covered="1168" lines-valid="1216" branches-covered="478" branches-valid="520" complexity="646" version="0" timestamp="1750104495">
+<coverage line-rate="0.9615384615384616" branch-rate="0.9195402298850575" lines-covered="1175" lines-valid="1222" branches-covered="480" branches-valid="522" complexity="647" version="0" timestamp="1750119292">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.9605263157894737" branch-rate="0.9192307692307692" complexity="646">
+    <package name="PropertyGridHelpers" line-rate="0.9615384615384616" branch-rate="0.9195402298850575" complexity="647">
       <classes>
         <class name="PropertyGridHelpers.Attributes.AllowBlankAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\AllowBlankAttribute.cs" line-rate="1" branch-rate="1" complexity="37">
           <methods>
@@ -220,7 +220,7 @@
             </method>
             <method name="AutoCompleteSetupAttribute" signature="(string[])" line-rate="1" branch-rate="1">
               <lines>
-                <line number="225" hits="40" branch="false" />
+                <line number="225" hits="52" branch="false" />
               </lines>
             </method>
             <method name="AutoCompleteSetupAttribute" signature="(System.Windows.Forms.ComboBoxStyle, string[])" line-rate="1" branch-rate="1">
@@ -240,24 +240,24 @@
             </method>
             <method name="AutoCompleteSetupAttribute" signature="(System.Windows.Forms.AutoCompleteMode, System.Windows.Forms.ComboBoxStyle, string[])" line-rate="1" branch-rate="1">
               <lines>
-                <line number="269" hits="64" branch="false" />
+                <line number="269" hits="76" branch="false" />
               </lines>
             </method>
             <method name="AutoCompleteSetupAttribute" signature="(System.Windows.Forms.AutoCompleteMode, System.Windows.Forms.AutoCompleteSource, System.Windows.Forms.ComboBoxStyle, string[])" line-rate="1" branch-rate="1">
               <lines>
-                <line number="279" hits="60" branch="false" />
-                <line number="280" hits="60" branch="false" />
-                <line number="281" hits="60" branch="false" />
-                <line number="282" hits="60" branch="false" />
-                <line number="283" hits="60" branch="false" />
-                <line number="284" hits="52" branch="false" />
-                <line number="285" hits="60" branch="false" />
-                <line number="286" hits="60" branch="false" />
-                <line number="287" hits="60" branch="false" />
-                <line number="288" hits="60" branch="false" />
-                <line number="289" hits="60" branch="false" />
-                <line number="291" hits="60" branch="false" />
-                <line number="292" hits="60" branch="false" />
+                <line number="279" hits="64" branch="false" />
+                <line number="280" hits="64" branch="false" />
+                <line number="281" hits="64" branch="false" />
+                <line number="282" hits="64" branch="false" />
+                <line number="283" hits="64" branch="false" />
+                <line number="284" hits="56" branch="false" />
+                <line number="285" hits="64" branch="false" />
+                <line number="286" hits="64" branch="false" />
+                <line number="287" hits="64" branch="false" />
+                <line number="288" hits="64" branch="false" />
+                <line number="289" hits="64" branch="false" />
+                <line number="291" hits="64" branch="false" />
+                <line number="292" hits="64" branch="false" />
               </lines>
             </method>
             <method name="AutoCompleteSetupAttribute" signature="(System.Type)" line-rate="1" branch-rate="1">
@@ -330,7 +330,7 @@
             </method>
             <method name="get_Values" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="158" hits="136" branch="false" />
+                <line number="158" hits="140" branch="false" />
               </lines>
             </method>
             <method name="get_ProviderType" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -340,7 +340,7 @@
             </method>
             <method name="get_Mode" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="180" hits="152" branch="false" />
+                <line number="180" hits="156" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Windows.Forms.AutoCompleteSource)" line-rate="1" branch-rate="1" complexity="1">
@@ -360,7 +360,7 @@
             </method>
             <method name=".ctor" signature="(System.String[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="225" hits="40" branch="false" />
+                <line number="225" hits="52" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Windows.Forms.ComboBoxStyle,System.String[])" line-rate="1" branch-rate="1" complexity="1">
@@ -380,24 +380,24 @@
             </method>
             <method name=".ctor" signature="(System.Windows.Forms.AutoCompleteMode,System.Windows.Forms.ComboBoxStyle,System.String[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="269" hits="64" branch="false" />
+                <line number="269" hits="76" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Windows.Forms.AutoCompleteMode,System.Windows.Forms.AutoCompleteSource,System.Windows.Forms.ComboBoxStyle,System.String[])" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="279" hits="60" branch="false" />
-                <line number="280" hits="60" branch="false" />
-                <line number="281" hits="60" branch="false" />
-                <line number="282" hits="60" branch="false" />
-                <line number="283" hits="60" branch="false" />
-                <line number="284" hits="52" branch="false" />
-                <line number="285" hits="60" branch="false" />
-                <line number="286" hits="60" branch="false" />
-                <line number="287" hits="60" branch="false" />
-                <line number="288" hits="60" branch="false" />
-                <line number="289" hits="60" branch="false" />
-                <line number="291" hits="60" branch="false" />
-                <line number="292" hits="60" branch="false" />
+                <line number="279" hits="64" branch="false" />
+                <line number="280" hits="64" branch="false" />
+                <line number="281" hits="64" branch="false" />
+                <line number="282" hits="64" branch="false" />
+                <line number="283" hits="64" branch="false" />
+                <line number="284" hits="56" branch="false" />
+                <line number="285" hits="64" branch="false" />
+                <line number="286" hits="64" branch="false" />
+                <line number="287" hits="64" branch="false" />
+                <line number="288" hits="64" branch="false" />
+                <line number="289" hits="64" branch="false" />
+                <line number="291" hits="64" branch="false" />
+                <line number="292" hits="64" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="1">
@@ -436,32 +436,32 @@
             <line number="107" hits="296" branch="false" />
             <line number="124" hits="144" branch="false" />
             <line number="141" hits="136" branch="false" />
-            <line number="158" hits="136" branch="false" />
+            <line number="158" hits="140" branch="false" />
             <line number="169" hits="100" branch="false" />
-            <line number="180" hits="152" branch="false" />
+            <line number="180" hits="156" branch="false" />
             <line number="189" hits="52" branch="false" />
             <line number="199" hits="28" branch="false" />
             <line number="212" hits="4" branch="false" />
             <line number="214" hits="48" branch="false" />
             <line number="216" hits="12" branch="false" />
-            <line number="225" hits="40" branch="false" />
+            <line number="225" hits="52" branch="false" />
             <line number="235" hits="28" branch="false" />
             <line number="247" hits="52" branch="false" />
             <line number="257" hits="28" branch="false" />
-            <line number="269" hits="64" branch="false" />
-            <line number="279" hits="60" branch="false" />
-            <line number="280" hits="60" branch="false" />
-            <line number="281" hits="60" branch="false" />
-            <line number="282" hits="60" branch="false" />
-            <line number="283" hits="60" branch="false" />
-            <line number="284" hits="52" branch="false" />
-            <line number="285" hits="60" branch="false" />
-            <line number="286" hits="60" branch="false" />
-            <line number="287" hits="60" branch="false" />
-            <line number="288" hits="60" branch="false" />
-            <line number="289" hits="60" branch="false" />
-            <line number="291" hits="60" branch="false" />
-            <line number="292" hits="60" branch="false" />
+            <line number="269" hits="76" branch="false" />
+            <line number="279" hits="64" branch="false" />
+            <line number="280" hits="64" branch="false" />
+            <line number="281" hits="64" branch="false" />
+            <line number="282" hits="64" branch="false" />
+            <line number="283" hits="64" branch="false" />
+            <line number="284" hits="56" branch="false" />
+            <line number="285" hits="64" branch="false" />
+            <line number="286" hits="64" branch="false" />
+            <line number="287" hits="64" branch="false" />
+            <line number="288" hits="64" branch="false" />
+            <line number="289" hits="64" branch="false" />
+            <line number="291" hits="64" branch="false" />
+            <line number="292" hits="64" branch="false" />
             <line number="300" hits="40" branch="false" />
             <line number="310" hits="28" branch="false" />
             <line number="320" hits="28" branch="false" />
@@ -2951,7 +2951,7 @@
             <line number="42" hits="8" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Support.Support" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Support\Support.cs" line-rate="0.9933774834437086" branch-rate="1" complexity="77">
+        <class name="PropertyGridHelpers.Support.Support" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Support\Support.cs" line-rate="1" branch-rate="1" complexity="78">
           <methods>
             <method name="GetResourcesNames" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -3103,45 +3103,51 @@
                 <line number="339" hits="40" branch="false" />
               </lines>
             </method>
-            <method name="GetFirstCustomAttribute&lt;T&gt;" signature="(System.Reflection.MemberInfo)" line-rate="0.8333333333333334" branch-rate="1">
+            <method name="GetFirstCustomAttribute&lt;T&gt;" signature="(System.Reflection.MemberInfo)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="404" hits="556" branch="false" />
-                <line number="406" hits="548" branch="false" />
+                <line number="404" hits="568" branch="false" />
+                <line number="406" hits="560" branch="false" />
                 <line number="408" hits="16" branch="false" />
-                <line number="409" hits="0" branch="false" />
-                <line number="415" hits="564" branch="false" />
-                <line number="417" hits="556" branch="false" />
+                <line number="409" hits="16" branch="false" />
+                <line number="415" hits="572" branch="false" />
+                <line number="417" hits="564" branch="false" />
               </lines>
             </method>
-            <method name="GetEnumField" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="1">
+            <method name="GetEnumField" signature="(System.Enum)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
-                <line number="424" hits="376" branch="false" />
-                <line number="425" hits="376" branch="false" />
+                <line number="431" hits="380" branch="false" />
+                <line number="433" hits="372" branch="false" />
+                <line number="435" hits="16" branch="false" />
+                <line number="436" hits="16" branch="false" />
+                <line number="439" hits="384" branch="false" />
+                <line number="440" hits="384" branch="false" />
+                <line number="441" hits="384" branch="true" condition-coverage="100% (2/2)" />
+                <line number="442" hits="376" branch="false" />
               </lines>
             </method>
             <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="452" hits="208" branch="false" />
-                <line number="454" hits="200" branch="false" />
-                <line number="456" hits="16" branch="false" />
-                <line number="457" hits="16" branch="false" />
-                <line number="459" hits="212" branch="true" condition-coverage="100% (2/2)" />
-                <line number="460" hits="20" branch="false" />
-                <line number="462" hits="208" branch="false" />
-                <line number="463" hits="208" branch="false" />
-                <line number="464" hits="208" branch="true" condition-coverage="100% (2/2)" />
-                <line number="465" hits="208" branch="false" />
-                <line number="466" hits="208" branch="false" />
-                <line number="467" hits="200" branch="false" />
-                <line number="468" hits="192" branch="false" />
+                <line number="469" hits="208" branch="false" />
+                <line number="471" hits="200" branch="false" />
+                <line number="473" hits="16" branch="false" />
+                <line number="474" hits="16" branch="false" />
+                <line number="476" hits="212" branch="true" condition-coverage="100% (2/2)" />
+                <line number="477" hits="20" branch="false" />
+                <line number="479" hits="208" branch="false" />
+                <line number="480" hits="208" branch="false" />
+                <line number="481" hits="208" branch="true" condition-coverage="100% (2/2)" />
+                <line number="482" hits="208" branch="false" />
+                <line number="483" hits="208" branch="false" />
+                <line number="484" hits="200" branch="false" />
+                <line number="485" hits="192" branch="false" />
               </lines>
             </method>
             <method name="SetLanguage" signature="(string)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="475" hits="12" branch="false" />
-                <line number="476" hits="20" branch="false" />
-                <line number="477" hits="20" branch="false" />
-                <line number="478" hits="20" branch="false" />
+                <line number="492" hits="12" branch="false" />
+                <line number="493" hits="20" branch="false" />
+                <line number="494" hits="20" branch="false" />
+                <line number="495" hits="20" branch="false" />
               </lines>
             </method>
             <method name="GetResourcesNames" signature="(System.Type)" line-rate="1" branch-rate="1">
@@ -3282,32 +3288,41 @@
                 <line number="338" hits="48" branch="false" />
               </lines>
             </method>
-            <method name="GetFirstCustomAttribute&lt;T&gt;" signature="(System.Reflection.MemberInfo)" line-rate="0.6666666666666666" branch-rate="1">
+            <method name="GetFirstCustomAttribute&lt;T&gt;" signature="(System.Reflection.MemberInfo)" line-rate="1" branch-rate="1">
               <lines>
                 <line number="408" hits="16" branch="false" />
-                <line number="409" hits="0" branch="false" />
-                <line number="415" hits="564" branch="false" />
+                <line number="409" hits="16" branch="false" />
+                <line number="415" hits="572" branch="false" />
+              </lines>
+            </method>
+            <method name="GetEnumField" signature="(System.Enum)" line-rate="1" branch-rate="1">
+              <lines>
+                <line number="435" hits="16" branch="false" />
+                <line number="436" hits="16" branch="false" />
+                <line number="439" hits="384" branch="false" />
+                <line number="440" hits="384" branch="false" />
+                <line number="441" hits="384" branch="true" condition-coverage="100% (2/2)" />
               </lines>
             </method>
             <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="456" hits="16" branch="false" />
-                <line number="457" hits="16" branch="false" />
-                <line number="459" hits="212" branch="true" condition-coverage="100% (2/2)" />
-                <line number="460" hits="20" branch="false" />
-                <line number="462" hits="208" branch="false" />
-                <line number="463" hits="208" branch="false" />
-                <line number="464" hits="208" branch="true" condition-coverage="100% (2/2)" />
-                <line number="465" hits="208" branch="false" />
-                <line number="466" hits="208" branch="false" />
-                <line number="467" hits="200" branch="false" />
+                <line number="473" hits="16" branch="false" />
+                <line number="474" hits="16" branch="false" />
+                <line number="476" hits="212" branch="true" condition-coverage="100% (2/2)" />
+                <line number="477" hits="20" branch="false" />
+                <line number="479" hits="208" branch="false" />
+                <line number="480" hits="208" branch="false" />
+                <line number="481" hits="208" branch="true" condition-coverage="100% (2/2)" />
+                <line number="482" hits="208" branch="false" />
+                <line number="483" hits="208" branch="false" />
+                <line number="484" hits="200" branch="false" />
               </lines>
             </method>
             <method name="SetLanguage" signature="(string)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="476" hits="20" branch="false" />
-                <line number="477" hits="20" branch="false" />
-                <line number="478" hits="20" branch="false" />
+                <line number="493" hits="20" branch="false" />
+                <line number="494" hits="20" branch="false" />
+                <line number="495" hits="20" branch="false" />
               </lines>
             </method>
             <method name="GetResourceString" signature="(System.String,System.Type)" line-rate="1" branch-rate="1" complexity="4">
@@ -3375,22 +3390,22 @@
                 <line number="339" hits="40" branch="false" />
               </lines>
             </method>
-            <method name="GetFirstCustomAttribute" signature="(System.Reflection.MemberInfo)" line-rate="0.8333333333333334" branch-rate="1" complexity="1">
+            <method name="GetFirstCustomAttribute" signature="(System.Reflection.MemberInfo)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="404" hits="556" branch="false" />
-                <line number="406" hits="548" branch="false" />
+                <line number="404" hits="568" branch="false" />
+                <line number="406" hits="560" branch="false" />
                 <line number="408" hits="16" branch="false" />
-                <line number="409" hits="0" branch="false" />
-                <line number="415" hits="564" branch="false" />
-                <line number="417" hits="556" branch="false" />
+                <line number="409" hits="16" branch="false" />
+                <line number="415" hits="572" branch="false" />
+                <line number="417" hits="564" branch="false" />
               </lines>
             </method>
             <method name="SetLanguage" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="475" hits="12" branch="false" />
-                <line number="476" hits="20" branch="false" />
-                <line number="477" hits="20" branch="false" />
-                <line number="478" hits="20" branch="false" />
+                <line number="492" hits="12" branch="false" />
+                <line number="493" hits="20" branch="false" />
+                <line number="494" hits="20" branch="false" />
+                <line number="495" hits="20" branch="false" />
               </lines>
             </method>
           </methods>
@@ -3521,31 +3536,37 @@
             <line number="335" hits="20" branch="false" />
             <line number="338" hits="48" branch="false" />
             <line number="339" hits="40" branch="false" />
-            <line number="404" hits="556" branch="false" />
-            <line number="406" hits="548" branch="false" />
+            <line number="404" hits="568" branch="false" />
+            <line number="406" hits="560" branch="false" />
             <line number="408" hits="16" branch="false" />
-            <line number="409" hits="0" branch="false" />
-            <line number="415" hits="564" branch="false" />
-            <line number="417" hits="556" branch="false" />
-            <line number="424" hits="376" branch="false" />
-            <line number="425" hits="376" branch="false" />
-            <line number="452" hits="208" branch="false" />
-            <line number="454" hits="200" branch="false" />
-            <line number="456" hits="16" branch="false" />
-            <line number="457" hits="16" branch="false" />
-            <line number="459" hits="212" branch="true" condition-coverage="100% (2/2)" />
-            <line number="460" hits="20" branch="false" />
-            <line number="462" hits="208" branch="false" />
-            <line number="463" hits="208" branch="false" />
-            <line number="464" hits="208" branch="true" condition-coverage="100% (2/2)" />
-            <line number="465" hits="208" branch="false" />
-            <line number="466" hits="208" branch="false" />
-            <line number="467" hits="200" branch="false" />
-            <line number="468" hits="192" branch="false" />
-            <line number="475" hits="12" branch="false" />
-            <line number="476" hits="20" branch="false" />
+            <line number="409" hits="16" branch="false" />
+            <line number="415" hits="572" branch="false" />
+            <line number="417" hits="564" branch="false" />
+            <line number="431" hits="380" branch="false" />
+            <line number="433" hits="372" branch="false" />
+            <line number="435" hits="16" branch="false" />
+            <line number="436" hits="16" branch="false" />
+            <line number="439" hits="384" branch="false" />
+            <line number="440" hits="384" branch="false" />
+            <line number="441" hits="384" branch="true" condition-coverage="100% (2/2)" />
+            <line number="442" hits="376" branch="false" />
+            <line number="469" hits="208" branch="false" />
+            <line number="471" hits="200" branch="false" />
+            <line number="473" hits="16" branch="false" />
+            <line number="474" hits="16" branch="false" />
+            <line number="476" hits="212" branch="true" condition-coverage="100% (2/2)" />
             <line number="477" hits="20" branch="false" />
-            <line number="478" hits="20" branch="false" />
+            <line number="479" hits="208" branch="false" />
+            <line number="480" hits="208" branch="false" />
+            <line number="481" hits="208" branch="true" condition-coverage="100% (2/2)" />
+            <line number="482" hits="208" branch="false" />
+            <line number="483" hits="208" branch="false" />
+            <line number="484" hits="200" branch="false" />
+            <line number="485" hits="192" branch="false" />
+            <line number="492" hits="12" branch="false" />
+            <line number="493" hits="20" branch="false" />
+            <line number="494" hits="20" branch="false" />
+            <line number="495" hits="20" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.TypeDescriptionProviders.LocalizedTypeDescriptionProvider" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\TypeDescriptionProviders\LocalizedTypeDescriptionProvider.cs" line-rate="1" branch-rate="1" complexity="3">
