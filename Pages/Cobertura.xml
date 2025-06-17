@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9595375722543352" branch-rate="0.9173076923076923" lines-covered="1162" lines-valid="1211" branches-covered="477" branches-valid="520" complexity="646" version="0" timestamp="1750028890">
+<coverage line-rate="0.9611890999174236" branch-rate="0.9192307692307692" lines-covered="1164" lines-valid="1211" branches-covered="478" branches-valid="520" complexity="646" version="0" timestamp="1750098147">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.9595375722543352" branch-rate="0.9173076923076923" complexity="646">
+    <package name="PropertyGridHelpers" line-rate="0.9611890999174236" branch-rate="0.9192307692307692" complexity="646">
       <classes>
         <class name="PropertyGridHelpers.Attributes.AllowBlankAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\AllowBlankAttribute.cs" line-rate="1" branch-rate="1" complexity="37">
           <methods>
@@ -2951,7 +2951,7 @@
             <line number="42" hits="8" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Support.Support" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Support\Support.cs" line-rate="0.9863013698630136" branch-rate="0.9864864864864865" complexity="77">
+        <class name="PropertyGridHelpers.Support.Support" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Support\Support.cs" line-rate="1" branch-rate="1" complexity="77">
           <methods>
             <method name="GetResourcesNames" signature="(System.Type)" line-rate="1" branch-rate="1" complexity="2">
               <lines>
@@ -3115,20 +3115,20 @@
                 <line number="404" hits="376" branch="false" />
               </lines>
             </method>
-            <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="0.8333333333333334" branch-rate="0.75" complexity="4">
+            <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="415" hits="192" branch="false" />
-                <line number="417" hits="184" branch="false" />
+                <line number="415" hits="208" branch="false" />
+                <line number="417" hits="200" branch="false" />
                 <line number="419" hits="16" branch="false" />
-                <line number="420" hits="0" branch="false" />
-                <line number="422" hits="200" branch="true" condition-coverage="50% (1/2)" />
-                <line number="423" hits="0" branch="false" />
-                <line number="425" hits="200" branch="false" />
-                <line number="426" hits="200" branch="false" />
-                <line number="427" hits="200" branch="true" condition-coverage="100% (2/2)" />
-                <line number="428" hits="200" branch="false" />
-                <line number="429" hits="196" branch="false" />
-                <line number="430" hits="188" branch="false" />
+                <line number="420" hits="16" branch="false" />
+                <line number="422" hits="212" branch="true" condition-coverage="100% (2/2)" />
+                <line number="423" hits="20" branch="false" />
+                <line number="425" hits="208" branch="false" />
+                <line number="426" hits="208" branch="false" />
+                <line number="427" hits="208" branch="true" condition-coverage="100% (2/2)" />
+                <line number="428" hits="208" branch="false" />
+                <line number="429" hits="200" branch="false" />
+                <line number="430" hits="192" branch="false" />
               </lines>
             </method>
             <method name="SetLanguage" signature="(string)" line-rate="1" branch-rate="1">
@@ -3282,17 +3282,17 @@
                 <line number="394" hits="564" branch="false" />
               </lines>
             </method>
-            <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="0.7777777777777778" branch-rate="0.75">
+            <method name="GetPropertyInfo" signature="(System.ComponentModel.ITypeDescriptorContext)" line-rate="1" branch-rate="1">
               <lines>
                 <line number="419" hits="16" branch="false" />
-                <line number="420" hits="0" branch="false" />
-                <line number="422" hits="200" branch="true" condition-coverage="50% (1/2)" />
-                <line number="423" hits="0" branch="false" />
-                <line number="425" hits="200" branch="false" />
-                <line number="426" hits="200" branch="false" />
-                <line number="427" hits="200" branch="true" condition-coverage="100% (2/2)" />
-                <line number="428" hits="200" branch="false" />
-                <line number="429" hits="196" branch="false" />
+                <line number="420" hits="16" branch="false" />
+                <line number="422" hits="212" branch="true" condition-coverage="100% (2/2)" />
+                <line number="423" hits="20" branch="false" />
+                <line number="425" hits="208" branch="false" />
+                <line number="426" hits="208" branch="false" />
+                <line number="427" hits="208" branch="true" condition-coverage="100% (2/2)" />
+                <line number="428" hits="208" branch="false" />
+                <line number="429" hits="200" branch="false" />
               </lines>
             </method>
             <method name="SetLanguage" signature="(string)" line-rate="1" branch-rate="1">
@@ -3516,18 +3516,18 @@
             <line number="394" hits="564" branch="false" />
             <line number="396" hits="556" branch="false" />
             <line number="404" hits="376" branch="false" />
-            <line number="415" hits="192" branch="false" />
-            <line number="417" hits="184" branch="false" />
+            <line number="415" hits="208" branch="false" />
+            <line number="417" hits="200" branch="false" />
             <line number="419" hits="16" branch="false" />
-            <line number="420" hits="0" branch="false" />
-            <line number="422" hits="200" branch="true" condition-coverage="50% (1/2)" />
-            <line number="423" hits="0" branch="false" />
-            <line number="425" hits="200" branch="false" />
-            <line number="426" hits="200" branch="false" />
-            <line number="427" hits="200" branch="true" condition-coverage="100% (2/2)" />
-            <line number="428" hits="200" branch="false" />
-            <line number="429" hits="196" branch="false" />
-            <line number="430" hits="188" branch="false" />
+            <line number="420" hits="16" branch="false" />
+            <line number="422" hits="212" branch="true" condition-coverage="100% (2/2)" />
+            <line number="423" hits="20" branch="false" />
+            <line number="425" hits="208" branch="false" />
+            <line number="426" hits="208" branch="false" />
+            <line number="427" hits="208" branch="true" condition-coverage="100% (2/2)" />
+            <line number="428" hits="208" branch="false" />
+            <line number="429" hits="200" branch="false" />
+            <line number="430" hits="192" branch="false" />
             <line number="437" hits="12" branch="false" />
             <line number="438" hits="20" branch="false" />
             <line number="439" hits="20" branch="false" />
@@ -3641,11 +3641,11 @@
             </method>
             <method name="Create" signature="(System.Type, string)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="102" hits="60" branch="false" />
-                <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
-                <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
-                <line number="105" hits="68" branch="false" />
-                <line number="106" hits="60" branch="false" />
+                <line number="102" hits="64" branch="false" />
+                <line number="103" hits="72" branch="true" condition-coverage="100% (2/2)" />
+                <line number="104" hits="72" branch="true" condition-coverage="100% (4/4)" />
+                <line number="105" hits="72" branch="false" />
+                <line number="106" hits="64" branch="false" />
               </lines>
             </method>
             <method name="OnComponentChanged" signature="()" line-rate="1" branch-rate="1">
@@ -3655,9 +3655,9 @@
             </method>
             <method name="Create" signature="(System.Type, string)" line-rate="1" branch-rate="1">
               <lines>
-                <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
-                <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
-                <line number="105" hits="68" branch="false" />
+                <line number="103" hits="72" branch="true" condition-coverage="100% (2/2)" />
+                <line number="104" hits="72" branch="true" condition-coverage="100% (4/4)" />
+                <line number="105" hits="72" branch="false" />
               </lines>
             </method>
             <method name="get_Container" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -3672,23 +3672,23 @@
             </method>
             <method name="get_PropertyDescriptor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="68" hits="1056" branch="false" />
+                <line number="68" hits="1084" branch="false" />
               </lines>
             </method>
             <method name="Create" signature="(System.Type,System.String)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
-                <line number="102" hits="60" branch="false" />
-                <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
-                <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
-                <line number="105" hits="68" branch="false" />
-                <line number="106" hits="60" branch="false" />
+                <line number="102" hits="64" branch="false" />
+                <line number="103" hits="72" branch="true" condition-coverage="100% (2/2)" />
+                <line number="104" hits="72" branch="true" condition-coverage="100% (4/4)" />
+                <line number="105" hits="72" branch="false" />
+                <line number="106" hits="64" branch="false" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.ComponentModel.PropertyDescriptor,System.Object)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="348" branch="false" />
-                <line number="14" hits="348" branch="false" />
-                <line number="15" hits="348" branch="false" />
+                <line number="13" hits="360" branch="false" />
+                <line number="14" hits="360" branch="false" />
+                <line number="15" hits="360" branch="false" />
                 <line number="29" hits="16" branch="false" />
                 <line number="30" hits="16" branch="false" />
                 <line number="31" hits="16" branch="false" />
@@ -3698,16 +3698,16 @@
                 <line number="35" hits="16" branch="false" />
                 <line number="44" hits="40" branch="false" />
                 <line number="54" hits="652" branch="false" />
-                <line number="56" hits="348" branch="false" />
-                <line number="68" hits="1056" branch="false" />
-                <line number="70" hits="348" branch="false" />
+                <line number="56" hits="360" branch="false" />
+                <line number="68" hits="1084" branch="false" />
+                <line number="70" hits="360" branch="false" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="348" branch="false" />
-            <line number="14" hits="348" branch="false" />
-            <line number="15" hits="348" branch="false" />
+            <line number="13" hits="360" branch="false" />
+            <line number="14" hits="360" branch="false" />
+            <line number="15" hits="360" branch="false" />
             <line number="29" hits="16" branch="false" />
             <line number="30" hits="16" branch="false" />
             <line number="31" hits="16" branch="false" />
@@ -3717,18 +3717,18 @@
             <line number="35" hits="16" branch="false" />
             <line number="44" hits="40" branch="false" />
             <line number="54" hits="652" branch="false" />
-            <line number="56" hits="348" branch="false" />
-            <line number="68" hits="1056" branch="false" />
-            <line number="70" hits="348" branch="false" />
+            <line number="56" hits="360" branch="false" />
+            <line number="68" hits="1084" branch="false" />
+            <line number="70" hits="360" branch="false" />
             <line number="80" hits="40" branch="false" />
             <line number="86" hits="32" branch="false" />
             <line number="87" hits="40" branch="false" />
             <line number="93" hits="40" branch="false" />
-            <line number="102" hits="60" branch="false" />
-            <line number="103" hits="68" branch="true" condition-coverage="100% (2/2)" />
-            <line number="104" hits="68" branch="true" condition-coverage="100% (4/4)" />
-            <line number="105" hits="68" branch="false" />
-            <line number="106" hits="60" branch="false" />
+            <line number="102" hits="64" branch="false" />
+            <line number="103" hits="72" branch="true" condition-coverage="100% (2/2)" />
+            <line number="104" hits="72" branch="true" condition-coverage="100% (4/4)" />
+            <line number="105" hits="72" branch="false" />
+            <line number="106" hits="64" branch="false" />
           </lines>
         </class>
         <class name="PropertyGridHelpers.TypeDescriptors.LocalizedTypeDescriptor" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\TypeDescriptors\LocalizedTypeDescriptor.cs" line-rate="1" branch-rate="1" complexity="4">
