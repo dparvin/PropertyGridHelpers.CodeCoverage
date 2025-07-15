@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.9954163483575248" branch-rate="0.9980842911877394" lines-covered="1303" lines-valid="1309" branches-covered="521" branches-valid="522" complexity="656" version="0" timestamp="1752525147">
+<coverage line-rate="1" branch-rate="0.9980842911877394" lines-covered="1309" lines-valid="1309" branches-covered="521" branches-valid="522" complexity="656" version="0" timestamp="1752534774">
   <sources>
     <source>c:\agent\_work\9\s\Code\PropertyGridHelpers\</source>
   </sources>
   <packages>
-    <package name="PropertyGridHelpers" line-rate="0.9954163483575248" branch-rate="0.9980842911877394" complexity="656">
+    <package name="PropertyGridHelpers" line-rate="1" branch-rate="0.9980842911877394" complexity="656">
       <classes>
         <class name="PropertyGridHelpers.Attributes.AllowBlankAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\AllowBlankAttribute.cs" line-rate="1" branch-rate="1" complexity="37">
           <methods>
@@ -728,7 +728,7 @@
             <line number="135" hits="32" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.EnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumTextAttribute.cs" line-rate="0.8695652173913043" branch-rate="1" complexity="17">
+        <class name="PropertyGridHelpers.Attributes.EnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\EnumTextAttribute.cs" line-rate="1" branch-rate="1" complexity="17">
           <methods>
             <method name="EnumTextAttribute" signature="(string)" line-rate="1" branch-rate="1">
               <lines>
@@ -747,17 +747,17 @@
                 <line number="110" hits="236" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="0.7" branch-rate="1" complexity="6">
+            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
                 <line number="118" hits="104" branch="false" />
                 <line number="119" hits="112" branch="true" condition-coverage="100% (6/6)" />
-                <line number="120" hits="24" branch="false" />
-                <line number="123" hits="96" branch="false" />
-                <line number="124" hits="104" branch="false" />
+                <line number="120" hits="20" branch="false" />
+                <line number="123" hits="100" branch="false" />
+                <line number="124" hits="108" branch="false" />
                 <line number="125" hits="104" branch="false" />
-                <line number="127" hits="0" branch="false" />
-                <line number="128" hits="0" branch="false" />
-                <line number="129" hits="0" branch="false" />
+                <line number="127" hits="20" branch="false" />
+                <line number="128" hits="12" branch="false" />
+                <line number="129" hits="20" branch="false" />
                 <line number="131" hits="112" branch="false" />
               </lines>
             </method>
@@ -770,16 +770,16 @@
                 <line number="147" hits="36" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="0.6666666666666666" branch-rate="1">
+            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="1" branch-rate="1">
               <lines>
                 <line number="119" hits="112" branch="true" condition-coverage="100% (6/6)" />
-                <line number="120" hits="24" branch="false" />
-                <line number="123" hits="96" branch="false" />
-                <line number="124" hits="104" branch="false" />
+                <line number="120" hits="20" branch="false" />
+                <line number="123" hits="100" branch="false" />
+                <line number="124" hits="108" branch="false" />
                 <line number="125" hits="104" branch="false" />
-                <line number="127" hits="0" branch="false" />
-                <line number="128" hits="0" branch="false" />
-                <line number="129" hits="0" branch="false" />
+                <line number="127" hits="20" branch="false" />
+                <line number="128" hits="12" branch="false" />
+                <line number="129" hits="20" branch="false" />
                 <line number="131" hits="112" branch="false" />
               </lines>
             </method>
@@ -808,13 +808,13 @@
             <line number="110" hits="236" branch="false" />
             <line number="118" hits="104" branch="false" />
             <line number="119" hits="112" branch="true" condition-coverage="100% (6/6)" />
-            <line number="120" hits="24" branch="false" />
-            <line number="123" hits="96" branch="false" />
-            <line number="124" hits="104" branch="false" />
+            <line number="120" hits="20" branch="false" />
+            <line number="123" hits="100" branch="false" />
+            <line number="124" hits="108" branch="false" />
             <line number="125" hits="104" branch="false" />
-            <line number="127" hits="0" branch="false" />
-            <line number="128" hits="0" branch="false" />
-            <line number="129" hits="0" branch="false" />
+            <line number="127" hits="20" branch="false" />
+            <line number="128" hits="12" branch="false" />
+            <line number="129" hits="20" branch="false" />
             <line number="131" hits="112" branch="false" />
             <line number="143" hits="36" branch="true" condition-coverage="100% (6/6)" />
             <line number="144" hits="36" branch="false" />
@@ -970,7 +970,7 @@
             <line number="95" hits="28" branch="false" />
           </lines>
         </class>
-        <class name="PropertyGridHelpers.Attributes.LocalizedEnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\LocalizedEnumTextAttribute.cs" line-rate="0.85" branch-rate="1" complexity="15">
+        <class name="PropertyGridHelpers.Attributes.LocalizedEnumTextAttribute" filename="c:\agent\_work\9\s\Code\PropertyGridHelpers\Attributes\LocalizedEnumTextAttribute.cs" line-rate="1" branch-rate="1" complexity="15">
           <methods>
             <method name="LocalizedEnumTextAttribute" signature="(string)" line-rate="1" branch-rate="1">
               <lines>
@@ -986,17 +986,17 @@
                 <line number="94" hits="248" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="0.7" branch-rate="1" complexity="6">
+            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="1" branch-rate="1" complexity="6">
               <lines>
                 <line number="102" hits="108" branch="false" />
                 <line number="103" hits="116" branch="true" condition-coverage="100% (6/6)" />
-                <line number="104" hits="24" branch="false" />
-                <line number="107" hits="100" branch="false" />
-                <line number="108" hits="108" branch="false" />
+                <line number="104" hits="20" branch="false" />
+                <line number="107" hits="104" branch="false" />
+                <line number="108" hits="112" branch="false" />
                 <line number="109" hits="108" branch="false" />
-                <line number="111" hits="0" branch="false" />
-                <line number="112" hits="0" branch="false" />
-                <line number="113" hits="0" branch="false" />
+                <line number="111" hits="20" branch="false" />
+                <line number="112" hits="12" branch="false" />
+                <line number="113" hits="20" branch="false" />
                 <line number="115" hits="116" branch="false" />
               </lines>
             </method>
@@ -1007,16 +1007,16 @@
                 <line number="128" hits="28" branch="false" />
               </lines>
             </method>
-            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="0.6666666666666666" branch-rate="1">
+            <method name="Get" signature="(System.Reflection.FieldInfo)" line-rate="1" branch-rate="1">
               <lines>
                 <line number="103" hits="116" branch="true" condition-coverage="100% (6/6)" />
-                <line number="104" hits="24" branch="false" />
-                <line number="107" hits="100" branch="false" />
-                <line number="108" hits="108" branch="false" />
+                <line number="104" hits="20" branch="false" />
+                <line number="107" hits="104" branch="false" />
+                <line number="108" hits="112" branch="false" />
                 <line number="109" hits="108" branch="false" />
-                <line number="111" hits="0" branch="false" />
-                <line number="112" hits="0" branch="false" />
-                <line number="113" hits="0" branch="false" />
+                <line number="111" hits="20" branch="false" />
+                <line number="112" hits="12" branch="false" />
+                <line number="113" hits="20" branch="false" />
                 <line number="115" hits="116" branch="false" />
               </lines>
             </method>
@@ -1036,13 +1036,13 @@
             <line number="94" hits="248" branch="false" />
             <line number="102" hits="108" branch="false" />
             <line number="103" hits="116" branch="true" condition-coverage="100% (6/6)" />
-            <line number="104" hits="24" branch="false" />
-            <line number="107" hits="100" branch="false" />
-            <line number="108" hits="108" branch="false" />
+            <line number="104" hits="20" branch="false" />
+            <line number="107" hits="104" branch="false" />
+            <line number="108" hits="112" branch="false" />
             <line number="109" hits="108" branch="false" />
-            <line number="111" hits="0" branch="false" />
-            <line number="112" hits="0" branch="false" />
-            <line number="113" hits="0" branch="false" />
+            <line number="111" hits="20" branch="false" />
+            <line number="112" hits="12" branch="false" />
+            <line number="113" hits="20" branch="false" />
             <line number="115" hits="116" branch="false" />
             <line number="126" hits="28" branch="true" condition-coverage="100% (6/6)" />
             <line number="127" hits="28" branch="false" />
