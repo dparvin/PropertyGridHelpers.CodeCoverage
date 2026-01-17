@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.30814576634512325" branch-rate="1" lines-covered="5175" lines-valid="16794" branches-covered="526" branches-valid="526" complexity="660" version="0" timestamp="1768120275">
+<coverage line-rate="0.308086221269501" branch-rate="1" lines-covered="5174" lines-valid="16794" branches-covered="526" branches-valid="526" complexity="660" version="0" timestamp="1768684822">
   <sources>
     <source>C:\Agent\_work\2\s\Code\PropertyGridHelpers\</source>
   </sources>
@@ -2414,13 +2414,13 @@
             </method>
             <method name="StopOnError" signature="(System.Exception)" line-rate="0.875" branch-rate="1">
               <lines>
-                <line number="116" hits="12" branch="false" />
-                <line number="118" hits="12" branch="false" />
-                <line number="121" hits="12" branch="false" />
-                <line number="125" hits="12" branch="false" />
-                <line number="126" hits="12" branch="false" />
-                <line number="127" hits="10" branch="false" />
-                <line number="129" hits="10" branch="false" />
+                <line number="116" hits="6" branch="false" />
+                <line number="118" hits="4" branch="false" />
+                <line number="121" hits="4" branch="false" />
+                <line number="125" hits="4" branch="false" />
+                <line number="126" hits="4" branch="false" />
+                <line number="127" hits="4" branch="false" />
+                <line number="129" hits="4" branch="false" />
                 <line number="131" hits="0" branch="false" />
               </lines>
             </method>
@@ -2463,13 +2463,13 @@
             <line number="110" hits="16" branch="false" />
             <line number="111" hits="16" branch="false" />
             <line number="112" hits="16" branch="false" />
-            <line number="116" hits="12" branch="false" />
-            <line number="118" hits="12" branch="false" />
-            <line number="121" hits="12" branch="false" />
-            <line number="125" hits="12" branch="false" />
-            <line number="126" hits="12" branch="false" />
-            <line number="127" hits="10" branch="false" />
-            <line number="129" hits="10" branch="false" />
+            <line number="116" hits="6" branch="false" />
+            <line number="118" hits="4" branch="false" />
+            <line number="121" hits="4" branch="false" />
+            <line number="125" hits="4" branch="false" />
+            <line number="126" hits="4" branch="false" />
+            <line number="127" hits="4" branch="false" />
+            <line number="129" hits="4" branch="false" />
             <line number="131" hits="0" branch="false" />
           </lines>
         </class>
@@ -2961,8 +2961,8 @@
                 <line number="103" hits="0" branch="false" />
                 <line number="104" hits="0" branch="false" />
                 <line number="109" hits="16" branch="false" />
-                <line number="111" hits="10" branch="false" />
-                <line number="113" hits="8" branch="false" />
+                <line number="111" hits="4" branch="false" />
+                <line number="113" hits="4" branch="false" />
               </lines>
             </method>
             <method name="GetIpEndPoint" signature="(string)" line-rate="1" branch-rate="1">
@@ -3020,8 +3020,8 @@
             <line number="103" hits="0" branch="false" />
             <line number="104" hits="0" branch="false" />
             <line number="109" hits="16" branch="false" />
-            <line number="111" hits="10" branch="false" />
-            <line number="113" hits="8" branch="false" />
+            <line number="111" hits="4" branch="false" />
+            <line number="113" hits="4" branch="false" />
             <line number="123" hits="16" branch="false" />
             <line number="124" hits="16" branch="false" />
             <line number="125" hits="16" branch="false" />
@@ -7217,7 +7217,7 @@
             <method name="Dispose" signature="(bool)" line-rate="1" branch-rate="1">
               <lines>
                 <line number="165" hits="16" branch="false" />
-                <line number="166" hits="6" branch="false" />
+                <line number="166" hits="8" branch="false" />
                 <line number="168" hits="16" branch="false" />
                 <line number="170" hits="16" branch="false" />
                 <line number="171" hits="16" branch="false" />
@@ -7596,7 +7596,7 @@
             <line number="160" hits="16" branch="false" />
             <line number="161" hits="16" branch="false" />
             <line number="165" hits="16" branch="false" />
-            <line number="166" hits="6" branch="false" />
+            <line number="166" hits="8" branch="false" />
             <line number="168" hits="16" branch="false" />
             <line number="170" hits="16" branch="false" />
             <line number="171" hits="16" branch="false" />
@@ -16484,11 +16484,11 @@
             </method>
             <method name="CheckForCacheHitOnTimer" signature="()" line-rate="1" branch-rate="1">
               <lines>
-                <line number="327" hits="12" branch="false" />
-                <line number="329" hits="12" branch="false" />
-                <line number="331" hits="6" branch="false" />
-                <line number="333" hits="12" branch="false" />
-                <line number="334" hits="12" branch="false" />
+                <line number="327" hits="16" branch="false" />
+                <line number="329" hits="16" branch="false" />
+                <line number="331" hits="10" branch="false" />
+                <line number="333" hits="16" branch="false" />
+                <line number="334" hits="16" branch="false" />
               </lines>
             </method>
             <method name="SendResults" signature="()" line-rate="1" branch-rate="1">
@@ -16504,13 +16504,13 @@
             </method>
             <method name="OnCacheTimeHit" signature="(object)" line-rate="0.5714285714285714" branch-rate="1">
               <lines>
-                <line number="352" hits="12" branch="false" />
-                <line number="356" hits="12" branch="false" />
-                <line number="357" hits="12" branch="false" />
+                <line number="352" hits="16" branch="false" />
+                <line number="356" hits="16" branch="false" />
+                <line number="357" hits="16" branch="false" />
                 <line number="358" hits="0" branch="false" />
                 <line number="360" hits="0" branch="false" />
                 <line number="361" hits="0" branch="false" />
-                <line number="363" hits="12" branch="false" />
+                <line number="363" hits="16" branch="false" />
               </lines>
             </method>
             <method name="RemoveInProgress" signature="(Microsoft.VisualStudio.TestPlatform.ObjectModel.TestResult)" line-rate="1" branch-rate="1">
@@ -16603,11 +16603,11 @@
             <line number="320" hits="16" branch="false" />
             <line number="322" hits="16" branch="false" />
             <line number="323" hits="16" branch="false" />
-            <line number="327" hits="12" branch="false" />
-            <line number="329" hits="12" branch="false" />
-            <line number="331" hits="6" branch="false" />
-            <line number="333" hits="12" branch="false" />
-            <line number="334" hits="12" branch="false" />
+            <line number="327" hits="16" branch="false" />
+            <line number="329" hits="16" branch="false" />
+            <line number="331" hits="10" branch="false" />
+            <line number="333" hits="16" branch="false" />
+            <line number="334" hits="16" branch="false" />
             <line number="339" hits="16" branch="false" />
             <line number="340" hits="16" branch="false" />
             <line number="341" hits="16" branch="false" />
@@ -16615,13 +16615,13 @@
             <line number="345" hits="16" branch="false" />
             <line number="347" hits="16" branch="false" />
             <line number="348" hits="16" branch="false" />
-            <line number="352" hits="12" branch="false" />
-            <line number="356" hits="12" branch="false" />
-            <line number="357" hits="12" branch="false" />
+            <line number="352" hits="16" branch="false" />
+            <line number="356" hits="16" branch="false" />
+            <line number="357" hits="16" branch="false" />
             <line number="358" hits="0" branch="false" />
             <line number="360" hits="0" branch="false" />
             <line number="361" hits="0" branch="false" />
-            <line number="363" hits="12" branch="false" />
+            <line number="363" hits="16" branch="false" />
             <line number="367" hits="16" branch="false" />
             <line number="368" hits="16" branch="false" />
             <line number="370" hits="16" branch="false" />
@@ -37362,7 +37362,7 @@
         </class>
       </classes>
     </package>
-    <package name="xunit.execution.desktop.dll" line-rate="0.47620215897939155" branch-rate="1" complexity="NaN">
+    <package name="xunit.execution.desktop.dll" line-rate="0.4759568204121688" branch-rate="1" complexity="NaN">
       <classes>
         <class name="AssemblyExtensions" filename="/_/src/common/AssemblyExtensions.cs" line-rate="0.5625" branch-rate="1" complexity="NaN">
           <methods>
@@ -38681,7 +38681,7 @@
             <line number="686" hits="0" branch="false" />
           </lines>
         </class>
-        <class name="Xunit.LongLivedMarshalByRefObject" filename="/_/src/common/LongLivedMarshalByRefObject.cs" line-rate="0.7777777777777778" branch-rate="1" complexity="NaN">
+        <class name="Xunit.LongLivedMarshalByRefObject" filename="/_/src/common/LongLivedMarshalByRefObject.cs" line-rate="0.6666666666666666" branch-rate="1" complexity="NaN">
           <methods>
             <method name="LongLivedMarshalByRefObject" signature="()" line-rate="1" branch-rate="1">
               <lines>
@@ -38690,10 +38690,10 @@
                 <line number="30" hits="16" branch="false" />
               </lines>
             </method>
-            <method name="DisconnectAll" signature="()" line-rate="0.5" branch-rate="1">
+            <method name="DisconnectAll" signature="()" line-rate="0.25" branch-rate="1">
               <lines>
-                <line number="38" hits="4" branch="false" />
-                <line number="39" hits="2" branch="false" />
+                <line number="38" hits="2" branch="false" />
+                <line number="39" hits="0" branch="false" />
                 <line number="41" hits="0" branch="false" />
                 <line number="42" hits="0" branch="false" />
               </lines>
@@ -38714,8 +38714,8 @@
             <line number="27" hits="16" branch="false" />
             <line number="29" hits="16" branch="false" />
             <line number="30" hits="16" branch="false" />
-            <line number="38" hits="4" branch="false" />
-            <line number="39" hits="2" branch="false" />
+            <line number="38" hits="2" branch="false" />
+            <line number="39" hits="0" branch="false" />
             <line number="41" hits="0" branch="false" />
             <line number="42" hits="0" branch="false" />
             <line number="54" hits="16" branch="false" />
@@ -40068,7 +40068,7 @@
               <lines>
                 <line number="27" hits="16" branch="false" />
                 <line number="29" hits="16" branch="false" />
-                <line number="30" hits="4" branch="false" />
+                <line number="30" hits="2" branch="false" />
                 <line number="32" hits="16" branch="false" />
                 <line number="33" hits="16" branch="false" />
                 <line number="34" hits="16" branch="false" />
@@ -40087,7 +40087,7 @@
             <line number="22" hits="16" branch="false" />
             <line number="27" hits="16" branch="false" />
             <line number="29" hits="16" branch="false" />
-            <line number="30" hits="4" branch="false" />
+            <line number="30" hits="2" branch="false" />
             <line number="32" hits="16" branch="false" />
             <line number="33" hits="16" branch="false" />
             <line number="34" hits="16" branch="false" />
@@ -40597,9 +40597,9 @@
             </method>
             <method name="Dispose" signature="()" line-rate="1" branch-rate="1">
               <lines>
-                <line number="58" hits="4" branch="false" />
-                <line number="59" hits="4" branch="false" />
-                <line number="60" hits="4" branch="false" />
+                <line number="58" hits="2" branch="false" />
+                <line number="59" hits="2" branch="false" />
+                <line number="60" hits="2" branch="false" />
               </lines>
             </method>
             <method name="Get&lt;TInterface&gt;" signature="(Xunit.Abstractions.IMessageSink, System.Type, object[])" line-rate="1" branch-rate="1">
@@ -40750,9 +40750,9 @@
             <line number="47" hits="16" branch="false" />
             <line number="48" hits="0" branch="false" />
             <line number="50" hits="16" branch="false" />
-            <line number="58" hits="4" branch="false" />
-            <line number="59" hits="4" branch="false" />
-            <line number="60" hits="4" branch="false" />
+            <line number="58" hits="2" branch="false" />
+            <line number="59" hits="2" branch="false" />
+            <line number="60" hits="2" branch="false" />
             <line number="76" hits="16" branch="false" />
             <line number="86" hits="16" branch="false" />
             <line number="97" hits="16" branch="false" />
@@ -45915,8 +45915,8 @@
                 <line number="77" hits="16" branch="false" />
                 <line number="78" hits="0" branch="false" />
                 <line number="79" hits="16" branch="false" />
-                <line number="82" hits="4" branch="false" />
-                <line number="83" hits="4" branch="false" />
+                <line number="82" hits="8" branch="false" />
+                <line number="83" hits="8" branch="false" />
                 <line number="86" hits="16" branch="false" />
                 <line number="87" hits="0" branch="false" />
                 <line number="89" hits="16" branch="false" />
@@ -45982,8 +45982,8 @@
             <line number="77" hits="16" branch="false" />
             <line number="78" hits="0" branch="false" />
             <line number="79" hits="16" branch="false" />
-            <line number="82" hits="4" branch="false" />
-            <line number="83" hits="4" branch="false" />
+            <line number="82" hits="8" branch="false" />
+            <line number="83" hits="8" branch="false" />
             <line number="86" hits="16" branch="false" />
             <line number="87" hits="0" branch="false" />
             <line number="89" hits="16" branch="false" />
